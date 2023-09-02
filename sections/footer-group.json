@@ -5,6 +5,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "e6bfe7db-fc4e-4ec5-9551-47e1268e3980": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logohome.png",
+            "image_width": 200,
+            "alignment": ""
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -21,6 +29,7 @@
         }
       },
       "block_order": [
+        "e6bfe7db-fc4e-4ec5-9551-47e1268e3980",
         "footer-0",
         "footer-1"
       ],
