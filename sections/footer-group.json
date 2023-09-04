@@ -2,6 +2,59 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "1693798185106b1ee6": {
+      "type": "apps",
+      "blocks": {
+        "c61f1072-cf84-4c84-b59b-4aa1ac978653": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "c61f1072-cf84-4c84-b59b-4aa1ac978653"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "c126bb0e-e828-4da6-8f96-9ef8ec719701": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-heading-1",
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-paragraph-1",
+        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -50,6 +103,8 @@
     }
   },
   "order": [
+    "1693798185106b1ee6",
+    "c126bb0e-e828-4da6-8f96-9ef8ec719701",
     "footer"
   ]
 }
