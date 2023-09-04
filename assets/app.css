@@ -510,5 +510,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .twcss-block {
-  display: block !important;
+  display: block;
+}
+
+.twcss-font-heading {
+  font-family: var(--font-heading-family);
+}
+
+@font-face {
+  font-family: 'Jazmin';
+
+  src: url({{'Jazmin-Light.woff2'|asset_url}}) format('woff2');
+
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Jazmin';
+
+  src: url({{'Jazmin-Medium.woff2'|asset_url}}) format('woff2');
+
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Jazmin';
+
+  src: url({{'Jazmin-MediumIt.woff2'|asset_url}}) format('woff2');
+
+  font-weight: normal;
+
+  font-style: italic;
 }

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Jazmin';
+  src: url({{'Jazmin-Light.woff2'|asset_url}}) format('woff2');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Jazmin';
+  src: url({{'Jazmin-Medium.woff2'|asset_url}}) format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Jazmin';
+  src: url({{'Jazmin-MediumIt.woff2'|asset_url}}) format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
