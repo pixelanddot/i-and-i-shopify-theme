@@ -16,7 +16,7 @@
 {%- endstyle -%}
 
 <div class='newsletter {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}'>
-  <div class='color-{{ section.settings.color_scheme }} gradient twcss-flex twcss-flex-row twcss-justify-between content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding'>
+  <div class='color-{{ section.settings.color_scheme }} gradient twcss-flex twcss-flex-row twcss-items-center twcss-justify-between content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding'>
     <div>
     {%- for block in section.blocks -%} 
       {%- case block.type -%}           
