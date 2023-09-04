@@ -37,6 +37,12 @@
             "heading_size": "h1"
           }
         },
+        "bf10f65c-24b0-4fbb-af3c-ca5699175407": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for new releases, offers, events, care tips and more.<\/p>"
+          }
+        },
         "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-email_form-1": {
           "type": "email_form",
           "settings": {
@@ -46,6 +52,7 @@
       "block_order": [
         "10988e6e-7809-4c48-8735-99b651df076e",
         "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-heading-1",
+        "bf10f65c-24b0-4fbb-af3c-ca5699175407",
         "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-email_form-1"
       ],
       "settings": {
