@@ -77,7 +77,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Explore jewellery",
+        "heading": "Explore <em>jewellery<\/em>",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
