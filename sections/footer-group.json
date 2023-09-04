@@ -24,7 +24,7 @@
     "c126bb0e-e828-4da6-8f96-9ef8ec719701": {
       "type": "newsletter",
       "blocks": {
-        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-paragraph-1": {
+        "10988e6e-7809-4c48-8735-99b651df076e": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Newsletter<\/p>"
@@ -44,7 +44,7 @@
         }
       },
       "block_order": [
-        "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-paragraph-1",
+        "10988e6e-7809-4c48-8735-99b651df076e",
         "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-heading-1",
         "sections--20693161672996__c126bb0e-e828-4da6-8f96-9ef8ec719701-email_form-1"
       ],
