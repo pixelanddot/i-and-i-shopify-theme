@@ -513,6 +513,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.twcss-flex {
+  display: flex;
+}
+
+.twcss-flex-row {
+  flex-direction: row;
+}
+
+.twcss-justify-between {
+  justify-content: space-between;
+}
+
 .twcss-font-heading {
   font-family: var(--font-heading-family);
 }
