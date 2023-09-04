@@ -2,10 +2,10 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "1693798185106b1ee6": {
+    "16938017581df04719": {
       "type": "apps",
       "blocks": {
-        "c61f1072-cf84-4c84-b59b-4aa1ac978653": {
+        "90f0a90d-7eee-4620-9d08-c150d4253b17": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
@@ -15,7 +15,7 @@
         }
       },
       "block_order": [
-        "c61f1072-cf84-4c84-b59b-4aa1ac978653"
+        "90f0a90d-7eee-4620-9d08-c150d4253b17"
       ],
       "settings": {
         "include_margins": true
@@ -103,7 +103,7 @@
     }
   },
   "order": [
-    "1693798185106b1ee6",
+    "16938017581df04719",
     "c126bb0e-e828-4da6-8f96-9ef8ec719701",
     "footer"
   ]
