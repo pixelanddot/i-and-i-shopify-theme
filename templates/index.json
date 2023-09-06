@@ -1,51 +1,57 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "d5feab37-e50c-4606-a46c-884ebc507dbc": {
+      "type": "slideshow",
       "blocks": {
-        "text": {
-          "type": "text",
+        "template--20693161967908__d5feab37-e50c-4606-a46c-884ebc507dbc-slide-1": {
+          "type": "slide",
           "settings": {
-            "text": "NEW 2023 COLLECTION",
-            "text_style": "body"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_61.png",
             "heading": "BEYOND LOVE",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "subheading": "NEW 2023 COLLECTION",
+            "button_label": "Explore Collection",
+            "link": "shopify:\/\/collections\/beyond-love",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "left"
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--20693161967908__d5feab37-e50c-4606-a46c-884ebc507dbc-slide-2": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Explore Collection",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "text",
-        "heading",
-        "button"
+        "template--20693161967908__d5feab37-e50c-4606-a46c-884ebc507dbc-slide-1",
+        "template--20693161967908__d5feab37-e50c-4606-a46c-884ebc507dbc-slide-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Rectangle_61.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "inverse",
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 7,
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "collage": {
@@ -79,7 +85,7 @@
       "settings": {
         "heading": "Explore <em>jewellery<\/em>",
         "heading_size": "h2",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
@@ -89,7 +95,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "d5feab37-e50c-4606-a46c-884ebc507dbc",
     "collage"
   ]
 }
