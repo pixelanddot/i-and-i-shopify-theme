@@ -10,7 +10,7 @@
           "settings": {
             "heading_size": 30,
             "feed_width": 100,
-            "html_area": "<style>h2 {text-align:left}<\/style>"
+            "html_area": "<style>h2 {text-align:left};\nh2 span {color:}\n<\/style>"
           }
         }
       },
