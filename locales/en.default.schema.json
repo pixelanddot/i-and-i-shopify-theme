@@ -1072,7 +1072,23 @@
         "menu": {
           "label": "Menu"
         },
+        "menu2": {
+          "label": "Menu 2"
+        },
         "menu_type_desktop": {
+          "label": "Desktop menu type",
+          "info": "Menu type is automatically optimized for mobile.",
+          "options__1": {
+            "label": "Dropdown"
+          },
+          "options__2": {
+            "label": "Mega menu"
+          },
+          "options__3": {
+            "label": "Drawer"
+          }
+        },
+        "menu2_type_desktop": {
           "label": "Desktop menu type",
           "info": "Menu type is automatically optimized for mobile.",
           "options__1": {
