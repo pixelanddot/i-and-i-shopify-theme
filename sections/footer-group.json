@@ -10,7 +10,7 @@
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
-            "html_area": "<style>\n.page-width:unset;\n<\/style>"
+            "html_area": ""
           }
         }
       },
