@@ -204,8 +204,9 @@
         elsif section.settings.menu_type_desktop != 'drawer'
           render 'header-mega-menu'
         endif
-      endif
-    %}
+        else -%}
+        <div id="smart-menu"></div>
+      {%- endif -%}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       <div>
