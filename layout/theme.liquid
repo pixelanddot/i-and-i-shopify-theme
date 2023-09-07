@@ -269,7 +269,7 @@
     </script>
   
   {% render 'qikify-apps' %}
-</head>
+{% render 'loadify_loader' %}{% render 'loadifyOpt' %}</head>
 
   <body class='gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}'>
     <a class='skip-to-content-link button visually-hidden' href='#MainContent'>
