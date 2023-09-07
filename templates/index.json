@@ -120,6 +120,7 @@
         "d75e3f94-7f10-43d3-8db8-ca059f6c802a": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/elle-logo.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -129,6 +130,7 @@
         "18837db7-75a8-43bf-a818-66b32af3c778": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo.svg",
             "title": "",
             "text": "",
             "link_label": "",
