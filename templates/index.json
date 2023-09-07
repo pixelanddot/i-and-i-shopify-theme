@@ -36,6 +36,94 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "5865b7f7-3d2a-45f8-b422-e2a8ea642a2f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>AS SEEN IN<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the-times-logo.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/grazia-logo.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a1a18056-100f-463b-9dc8-327d16192c3b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vigue-logo.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d75e3f94-7f10-43d3-8db8-ca059f6c802a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-logo.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "18837db7-75a8-43bf-a818-66b32af3c778": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-1",
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-2",
+        "template--20693161967908__5865b7f7-3d2a-45f8-b422-e2a8ea642a2f-column-3",
+        "a1a18056-100f-463b-9dc8-327d16192c3b",
+        "d75e3f94-7f10-43d3-8db8-ca059f6c802a",
+        "18837db7-75a8-43bf-a818-66b32af3c778"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -74,10 +162,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e1794430-b89b-48de-875c-23e32eaf7160": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gold"
+          }
+        },
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gold-vermeil"
+          }
+        },
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-1",
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-2",
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-3"
+      ],
+      "settings": {
+        "title": "Choose the <em>finest metals<\/em>",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "d5feab37-e50c-4606-a46c-884ebc507dbc",
-    "collage"
+    "5865b7f7-3d2a-45f8-b422-e2a8ea642a2f",
+    "collage",
+    "e1794430-b89b-48de-875c-23e32eaf7160"
   ]
 }
