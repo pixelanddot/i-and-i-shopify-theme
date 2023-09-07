@@ -9,7 +9,7 @@
           "type": "announcement",
           "settings": {
             "text": "Free shipping on all orders above £100",
-            "link": ""
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
