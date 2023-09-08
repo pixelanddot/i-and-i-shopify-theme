@@ -128,7 +128,7 @@
         "template--20693162328356__affc9ab4-f5da-4f58-a4bd-d2e9fe99a58d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "text_style": "body"
           }
         }
@@ -138,6 +138,7 @@
         "template--20693162328356__affc9ab4-f5da-4f58-a4bd-d2e9fe99a58d-text-1"
       ],
       "settings": {
+        "image": "{{ product.metafields.custom.model_image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
