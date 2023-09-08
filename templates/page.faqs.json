@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "637b5524-d9a3-420e-a61a-cd4110b74041": {
+      "type": "image-with-text",
+      "blocks": {
+        "f1b41c70-caaf-4b9f-83d8-882946104119": {
+          "type": "caption",
+          "settings": {
+            "caption": "About",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We each have a story, and that story is <em>unique<\/em>",
+            "heading_size": "h1"
+          }
+        },
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe each and one of us has a unique style which speaks for ourselves in its most natural and organic way, and with that in mind, i+i jewellery was born. i+i jewellery is a contemporary jewellery line with a focus on delicate pieces that can be worn every day in whatever setting you find yourself – understated elegance and confidence within.<\/p><p>i+i jewellery has been designed with a vision for each piece to become an extension of the person wearing it, whether that be a single piece you never take off, or multiple pieces that you can layer to reflect your mood. The brand focuses on classic designs that won’t go out of fashion. Feminine but with an edge, i+i mixes silver and gold, precious with semi-precious; each stone individually chosen based on colour and cut.<\/p><p>i+i jewellery also offers a bespoke service for jewellery ranging from wedding and engagement rings, to engraved bracelets and cufflinks, and anything else in between – just ask.<br\/><\/p><p>The brand has been fortunate enough to have been featured in Vogue, Elle, InStyle, Sunday Times, Glamour, and Tatler to name a few, with pieces worn by some of the most stylish icons including Alexa Chung, Ellie Goulding, Alicia Vikander, Kate Moss and The Duchess of Sussex.<\/p><p>Together, let’s create some memories and mostly importantly, have some fun.<\/p><p>Love, <br\/>Grace <\/p><p><br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "f1b41c70-caaf-4b9f-83d8-882946104119",
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-heading-1",
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-text-1",
+        "template--20820091568420__637b5524-d9a3-420e-a61a-cd4110b74041-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1694025710860.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "637b5524-d9a3-420e-a61a-cd4110b74041"
+  ]
+}
