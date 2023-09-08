@@ -105,8 +105,8 @@
         "open_first_collapsible_row": true,
         "image_ratio": "large",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 100
+        "padding_top": 60,
+        "padding_bottom": 92
       }
     }
   },
