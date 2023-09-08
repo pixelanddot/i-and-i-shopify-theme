@@ -73,10 +73,17 @@
             "alignment": ""
           }
         },
+        "0ece2d98-516c-41de-b883-20b734b95b52": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Collections",
+            "menu": "footer"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "Company",
             "menu": "footer"
           }
         },
@@ -90,6 +97,7 @@
       },
       "block_order": [
         "e6bfe7db-fc4e-4ec5-9551-47e1268e3980",
+        "0ece2d98-516c-41de-b883-20b734b95b52",
         "footer-0",
         "25d3213e-7d83-4655-a1ea-a98094771759"
       ],
