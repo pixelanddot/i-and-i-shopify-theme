@@ -4,45 +4,45 @@
 
 @font-face {
   font-family: 'Jazmin';
-  src: url({{'Jazmin-Light.woff2'|asset_url}}) format('woff2');
+  src: url('Jazmin-Light.woff2') format('woff2');
   font-weight: lighter;
 }
 
 @font-face {
   font-family: 'Jazmin';
-  src: url({{'Jazmin-Medium.woff2'|asset_url}}) format('woff2');
+  src: url('Jazmin-Medium.woff2') format('woff2');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Jazmin';
-  src: url({{'Jazmin-MediumIt.woff2'|asset_url}}) format('woff2');
+  src: url('Jazmin-MediumIt.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url({{'Gilroy-Light.woff2'|asset_url}}) format('woff2');
+  src: url('Gilroy-Light.woff2') format('woff2');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url({{'Gilroy-LightItalic.woff2'|asset_url}}) format('woff2');
+  src: url('Gilroy-LightItalic.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url({{'Gilroy-Bold.woff2'|asset_url}}) format('woff2');
+  src: url('Gilroy-Bold.woff2') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url({{'Gilroy-BoldItalic.woff2'|asset_url}}) format('woff2');
+  src: url('Gilroy-BoldItalic.woff2') format('woff2');
   font-weight: bold;
   font-style: italic;
 }
