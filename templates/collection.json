@@ -23,14 +23,14 @@
         "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "{{ collection.metafields.custom.title.value }}",
             "heading_size": "h1"
           }
         },
         "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-text-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>{{ collection.metafields.custom.short_description | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
