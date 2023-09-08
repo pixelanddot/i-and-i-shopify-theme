@@ -21,6 +21,6 @@
   font-style: italic;
 }
 
-.tmenu_item_text {
+.tmenu_item_link {
   @apply !twcss-font-heading;
 }
