@@ -28,11 +28,41 @@
             "row_content": "<p>It is generally much harder to solid gold pieces to tarnish compared to gold vermeil pieces. However, gold is still a metal that requires proper care, for example, no harsh chemicals should come in contact with gold. Gold vermeil pieces can tarnish overtime if not cared for properly or simply due to environmental factors as it is plated on silver. However, with proper care, the life of gold vermeil jewellery can be prolonged significantly. Please refer to our Care page for further details on how to care for your jewellery.<\/p>",
             "page": ""
           }
+        },
+        "d4d4bb86-624d-4acf-a9d0-6b62d9a9a5bf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "none",
+            "row_content": "<p>Yes, we ship to most countries that our courier service providers deliver to. If you are not sure, please contact us to inquire. We will typically reply within 1 working day. <\/p><p>For certain countries, customs and duties may apply, and it will be the customer’s responsibility to cover these costs. For further details, please refer to our shipping page. <\/p>",
+            "page": ""
+          }
+        },
+        "c6892573-d58d-4680-81bd-1243d4411327": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer bespoke services?",
+            "icon": "none",
+            "row_content": "<p>Yes, we do. Please email <a href=\"mailto:info@iandijewellery.com\" title=\"info@iandijewellery.com\">info@iandijewellery.com<\/a> to inquire.<\/p>",
+            "page": ""
+          }
+        },
+        "2350aed1-1303-4d74-b741-43de24c60cfb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to make a piece of bespoke jewellery?",
+            "icon": "none",
+            "row_content": "<p>It depends on the nature of the jewellery and your requirements. As all our jewellery are hand made, it will involve a process of design, sampling and making of the final piece. Typically we would want to allow at least 12 weeks especially when it involves sourcing stones.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--20820181385508__c4ff3bf4-b95c-49ae-9f18-5f3eabb0834d-collapsible_row-1",
-        "616dd615-501c-4c80-af30-37f1cd56c42d"
+        "616dd615-501c-4c80-af30-37f1cd56c42d",
+        "d4d4bb86-624d-4acf-a9d0-6b62d9a9a5bf",
+        "c6892573-d58d-4680-81bd-1243d4411327",
+        "2350aed1-1303-4d74-b741-43de24c60cfb"
       ],
       "settings": {
         "caption": "FAQS",
