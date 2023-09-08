@@ -568,5 +568,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .tmenu_item_text {
-  font-family: var(--font-heading-family);
+  font-family: var(--font-heading-family) !important;
 }

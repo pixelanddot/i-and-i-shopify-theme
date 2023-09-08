@@ -22,5 +22,5 @@
 }
 
 .tmenu_item_text {
-  @apply twcss-font-heading;
+  @apply !twcss-font-heading;
 }
