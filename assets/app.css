@@ -529,6 +529,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: row;
 }
 
+.twcss-content-between {
+  align-content: space-between;
+}
+
 .twcss-items-center {
   align-items: center;
 }
