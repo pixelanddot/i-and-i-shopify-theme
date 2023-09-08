@@ -48,7 +48,16 @@
           "settings": {
             "heading": "Materials",
             "icon": "leather",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.materials.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "<p>{{ product.metafields.custom.dimensions.value }}<\/p>",
             "page": ""
           }
         },
@@ -58,15 +67,6 @@
             "heading": "Shipping & Returns",
             "icon": "truck",
             "content": "<p><span style=\"text-decoration:underline\"><strong>Shipping<\/strong><\/span><\/p><p>UK Delivery is £4.95 using Royal Mail ‘Signed For’ Service. This service aims to deliver the next working day, but can take 2-3 days. FREE Next Day Delivery Shipping on all orders over £150. For all emergencies, or if you do not want to wait, we offer UK Guaranteed Next Day Delivery Service through Royal Mail which is £7.95 (Orders must be placed before 1pm).<\/p><p>International Shipping using Airsure Service costs £12.50<\/p><p><span style=\"text-decoration:underline\"><strong>Returns<\/strong><\/span><\/p><p>Please let us know if you are in any way unhappy with your purchase(s). We would be happy to exchange or refund within 7 days of delivery, providing the item is returned to us in the exact condition it was received: therefore undamaged, unworn and in its original packaging.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
             "page": ""
           }
         },
@@ -95,8 +95,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
+        "collapsible-row-1",
         "collapsible-row-3",
         "share"
       ],
