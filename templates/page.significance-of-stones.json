@@ -53,10 +53,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6965a362-1afa-4feb-9930-f519df5dc20a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ruby",
+            "heading_size": "h1"
+          }
+        },
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A stone that has historically represented strength and courage, rubies are often seen as a symbol of passion, love, and desire. Their deep red colour is associated with the intensity of emotions and the warmth of the heart. In modern times, rubies are often associated with wealth, success, and prosperity. <\/p><p>Rubies have also been thought to provide protection from negative energies and harmful influences, therefore shield the wearer from harm and negative forces, promoting safety and well-being.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "70d2b9b6-7d19-4504-9d5f-a8ad49e81e03": {
+          "type": "button",
+          "settings": {
+            "button_label": "RUBY JEWELLERY",
+            "button_link": "shopify:\/\/collections\/ruby",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e",
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9",
+        "70d2b9b6-7d19-4504-9d5f-a8ad49e81e03"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-12-57-37-_B_Radius7_Smoothing4_8294a2c0-eaa9-4619-974e-802ed4f587e8.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "c0391c16-c809-4b09-b11e-4899a0cad613"
+    "c0391c16-c809-4b09-b11e-4899a0cad613",
+    "6965a362-1afa-4feb-9930-f519df5dc20a"
   ]
 }
