@@ -566,3 +566,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   font-style: italic;
 }
+
+.tmenu_item_text {
+  font-family: var(--font-heading-family);
+}
