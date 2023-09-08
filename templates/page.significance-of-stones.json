@@ -2,13 +2,61 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "c0391c16-c809-4b09-b11e-4899a0cad613": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Emerald",
+            "heading_size": "h1"
+          }
+        },
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Known for its healing and protective power in ancient times, emeralds have long been associated with love and loyalty. The vibrant green colour of emeralds is often associated with the renewal of life and hope. <\/p><p>The stone is also thought to facilitate open and honest communication, making it easier to express one's feelings and emotions. One of the most sought-after stone for its natural beauty, emeralds also encourage mental clarity and insight, enhance intuition and provide a sense of wisdom and discernment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "eae26793-d8dc-4d53-b328-d819b3615650": {
+          "type": "button",
+          "settings": {
+            "button_label": "EMERALD JEWELLERY",
+            "button_link": "shopify:\/\/collections\/emerald",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1",
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1",
+        "eae26793-d8dc-4d53-b328-d819b3615650"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-12-57-37-_B_Radius7_Smoothing4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c0391c16-c809-4b09-b11e-4899a0cad613"
   ]
 }
