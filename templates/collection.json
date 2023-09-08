@@ -33,21 +33,12 @@
             "text": "",
             "text_style": "body"
           }
-        },
-        "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "5ab47502-d205-4e99-b9cd-5ebf2ae50853",
         "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-heading-1",
-        "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-text-1",
-        "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-button-1"
+        "template--20693161771300__59d5fdcd-88e9-42d3-864f-eee3cf447523-text-1"
       ],
       "settings": {
         "image": "{{ collection.image }}",
