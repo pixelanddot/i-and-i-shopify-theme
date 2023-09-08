@@ -2,14 +2,56 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "square"
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "9bf2b501-a0c3-4155-8b4f-097d27d91970": {
+      "type": "collage",
+      "blocks": {
+        "template--20693161836836__9bf2b501-a0c3-4155-8b4f-097d27d91970-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "beyond-love"
+          }
+        },
+        "494ed55b-157e-465a-8595-15e1054feb69": {
+          "type": "collection",
+          "settings": {
+            "collection": "for-love-or-diamonds"
+          }
+        },
+        "aa3dbbd5-56a2-42c2-a716-792f1c494f3c": {
+          "type": "collection",
+          "settings": {
+            "collection": "gleaming-gems"
+          }
+        }
+      },
+      "block_order": [
+        "template--20693161836836__9bf2b501-a0c3-4155-8b4f-097d27d91970-collection-1",
+        "494ed55b-157e-465a-8595-15e1054feb69",
+        "aa3dbbd5-56a2-42c2-a716-792f1c494f3c"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9bf2b501-a0c3-4155-8b4f-097d27d91970"
   ]
 }
