@@ -15,7 +15,7 @@
         "5ab47502-d205-4e99-b9cd-5ebf2ae50853": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
+            "caption": "{{ collection.title }}",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
