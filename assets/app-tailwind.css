@@ -20,3 +20,7 @@
   font-weight: normal;
   font-style: italic;
 }
+
+.tmenu_item_text {
+  @apply font-heading;
+}
