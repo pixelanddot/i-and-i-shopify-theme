@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "f0813f39-51e6-47bc-9e52-b4a44fefc03d": {
+      "type": "rich-text",
+      "blocks": {
+        "81550703-c9e6-4f37-9d3a-145d8bc79bf9": {
+          "type": "caption",
+          "settings": {
+            "caption": "Press",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20824227447076__f0813f39-51e6-47bc-9e52-b4a44fefc03d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "For press opportunities email <a href=\"mailto:info@iandijewellery.com\" title=\"mailto:info@iandijewellery.com\"><em><strong>info@iandijewellery.com<\/strong><\/em><\/a>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "81550703-c9e6-4f37-9d3a-145d8bc79bf9",
+        "template--20824227447076__f0813f39-51e6-47bc-9e52-b4a44fefc03d-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "f4fb5deb-74bb-401b-85a6-fc468fbc97b6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
+            "title": "Fact Sheet",
+            "text": "",
+            "link_label": "(Download)",
+            "link": "#"
+          }
+        },
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
+            "title": "Press Images",
+            "text": "",
+            "link_label": "(Download)",
+            "link": "#"
+          }
+        },
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
+            "title": "Logos",
+            "text": "",
+            "link_label": "(Download)",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-1",
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-2",
+        "template--20824227447076__f4fb5deb-74bb-401b-85a6-fc468fbc97b6-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": false,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "f0813f39-51e6-47bc-9e52-b4a44fefc03d",
+    "f4fb5deb-74bb-401b-85a6-fc468fbc97b6",
+    "main"
+  ]
+}
