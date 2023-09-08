@@ -128,7 +128,7 @@
         "template--20693162328356__affc9ab4-f5da-4f58-a4bd-d2e9fe99a58d-text-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>{{ product.metafields.custom.how_to_wear_it | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
@@ -140,7 +140,7 @@
       "settings": {
         "image": "{{ product.metafields.custom.model_image.value }}",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
