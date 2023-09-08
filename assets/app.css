@@ -590,7 +590,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 @font-face {
   font-family: 'Gilroy';
 
-  src: url({{'Gilroy-Regular.woff2'|asset_url}}) format('woff2');
+  src: url({{'Gilroy-Light.woff2'|asset_url}}) format('woff2');
 
   font-weight: normal;
 }
@@ -598,7 +598,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 @font-face {
   font-family: 'Gilroy';
 
-  src: url({{'Gilroy-RegularItalic.woff2'|asset_url}}) format('woff2');
+  src: url({{'Gilroy-LightItalic.woff2'|asset_url}}) format('woff2');
 
   font-weight: normal;
 
