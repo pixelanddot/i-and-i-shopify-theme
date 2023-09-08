@@ -115,8 +115,8 @@
     "currency_code_enabled": false,
     "cart_type": "drawer",
     "show_vendor": false,
-    "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "show_cart_note": true,
+    "cart_drawer_collection": "beyond-love",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
