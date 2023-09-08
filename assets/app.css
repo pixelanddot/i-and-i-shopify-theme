@@ -587,15 +587,47 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Gilroy';
+
+  src: url({{'Gilroy-Regular.woff2'|asset_url}}) format('woff2');
+
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+
+  src: url({{'Gilroy-RegularItalic.woff2'|asset_url}}) format('woff2');
+
+  font-weight: normal;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+
+  src: url({{'Gilroy-Bold.woff2'|asset_url}}) format('woff2');
+
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+
+  src: url({{'Gilroy-BoldItalic.woff2'|asset_url}}) format('woff2');
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
 .tmenu_item_link {
   font-family: var(--font-heading-family) !important;
 }
 
 @media (min-width: 750px) {
-  .md\:twcss-flex-row {
-    flex-direction: row;
-  }
-
   .md\:twcss-flex-col {
     flex-direction: column;
   }
