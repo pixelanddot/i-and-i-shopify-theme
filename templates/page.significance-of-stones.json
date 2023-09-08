@@ -41,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2023-05-22-12-57-37-_B_Radius7_Smoothing4_8294a2c0-eaa9-4619-974e-802ed4f587e8.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
