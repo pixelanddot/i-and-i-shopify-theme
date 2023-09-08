@@ -521,6 +521,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.twcss-w-full {
+  width: 100%;
+}
+
 .twcss-flex-row {
   flex-direction: row;
 }
