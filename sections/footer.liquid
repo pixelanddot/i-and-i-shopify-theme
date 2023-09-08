@@ -173,15 +173,7 @@
               {% # theme-check-enable %}
             </div>
           {%- endif -%}
-
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons', class: 'footer__list-social' -%}
-          {%- endif -%}
-        </div>
-      </div>
-    {%- endunless -%}
-  {%- endif -%}
-
+        
   <div
     class='footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
     {% if settings.animations_reveal_on_scroll %}
@@ -304,6 +296,13 @@
           </ul>
         {%- endif -%}
       </div>
+      {%- if section.settings.show_social and has_social_icons -%}
+        {%- render 'social-icons', class: 'footer__list-social' -%}
+      {%- endif -%}
+    </div>
+  </div>
+{%- endunless -%}
+{%- endif -%}
     </div>
   </div>
 </footer>
