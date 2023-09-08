@@ -41,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1694025710860.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
