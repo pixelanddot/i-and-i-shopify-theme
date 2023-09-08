@@ -41,7 +41,7 @@
             "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
             "title": "Fact Sheet",
             "text": "",
-            "link_label": "",
+            "link_label": "(Download)",
             "link": "#"
           }
         },
@@ -51,7 +51,7 @@
             "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
             "title": "Press Images",
             "text": "",
-            "link_label": "",
+            "link_label": "(Download)",
             "link": "#"
           }
         },
@@ -61,7 +61,7 @@
             "image": "shopify:\/\/shop_images\/Icon_feather-download.png",
             "title": "Logos",
             "text": "",
-            "link_label": "",
+            "link_label": "(Download)",
             "link": "#"
           }
         }
