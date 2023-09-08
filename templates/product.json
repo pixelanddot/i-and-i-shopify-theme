@@ -139,7 +139,7 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.model_image.value }}",
-        "height": "small",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
