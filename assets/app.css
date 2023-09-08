@@ -509,6 +509,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.twcss-m-auto {
+  margin: auto;
+}
+
 .twcss-block {
   display: block;
 }
