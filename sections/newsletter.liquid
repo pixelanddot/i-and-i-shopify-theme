@@ -52,7 +52,7 @@
       {%- case block.type -%}
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }}>
-            {% form 'customer', class: 'newsletter-form' %}
+            {% form 'customer', class: 'newsletter-form max-w-4xl' %}
               <input type='hidden' name='contact[tags]' value='newsletter'>
               <div
                 class='newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
@@ -66,7 +66,7 @@
                     id='NewsletterForm--{{ section.id }}'
                     type='email'
                     name='contact[email]'
-                    class='field__input'
+                    class='field__input max-w-4xl'
                     value='{{ form.email }}'
                     aria-required='true'
                     autocorrect='off'
