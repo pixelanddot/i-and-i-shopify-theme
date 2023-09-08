@@ -35,7 +35,7 @@
           </h2>
         {%- when 'paragraph' -%}
           <div
-            class='rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
+            class='rte{% if settings.animations_reveal_on_scroll %} scroll-trigger twcss-text-center animate--slide-in{% endif %}'
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
