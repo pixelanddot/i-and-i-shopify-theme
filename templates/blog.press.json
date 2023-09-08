@@ -14,7 +14,7 @@
         "template--20824227447076__f0813f39-51e6-47bc-9e52-b4a44fefc03d-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "For press opportunities email <em><strong>info@iandijewellery.com<\/strong><\/em>",
+            "heading": "For press opportunities email <a href=\"mailto:info@iandijewellery.com\" title=\"mailto:info@iandijewellery.com\"><em><strong>info@iandijewellery.com<\/strong><\/em><\/a>",
             "heading_size": "h1"
           }
         }
