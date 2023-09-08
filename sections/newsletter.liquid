@@ -16,7 +16,7 @@
 {%- endstyle -%}
 
 <div class='newsletter {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}'>
-  <div class='color-{{ section.settings.color_scheme }} gradient twcss-flex twcss-flex-row twcss-items-center twcss-justify-between content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding'>
+  <div class='color-{{ section.settings.color_scheme }} gradient twcss-flex twcss-flex-col md:twcss-flex-row twcss-items-center twcss-justify-between content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding'>
     <div>
     {%- for block in section.blocks -%} 
       {%- case block.type -%}           
@@ -52,7 +52,7 @@
       {%- case block.type -%}
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }}>
-            {% form 'customer', class: 'newsletter-form max-w-4xl' %}
+            {% form 'customer', class: 'newsletter-form !mt-6 md:mt-0' %}
               <input type='hidden' name='contact[tags]' value='newsletter'>
               <div
                 class='newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
@@ -66,7 +66,7 @@
                     id='NewsletterForm--{{ section.id }}'
                     type='email'
                     name='contact[email]'
-                    class="field__input w-[72rem]"
+                    class="field__input"
                     value='{{ form.email }}'
                     aria-required='true'
                     autocorrect='off'

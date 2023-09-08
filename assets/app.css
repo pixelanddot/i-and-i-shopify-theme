@@ -533,6 +533,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: row;
 }
 
+.twcss-flex-col {
+  flex-direction: column;
+}
+
 .twcss-items-center {
   align-items: center;
 }
@@ -577,4 +581,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tmenu_item_link {
   font-family: var(--font-heading-family) !important;
+}
+
+@media (min-width: 750px) {
+  .md\:twcss-flex-row {
+    flex-direction: row;
+  }
 }
