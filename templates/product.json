@@ -139,8 +139,8 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.model_image.value }}",
-        "height": "adapt",
-        "desktop_image_width": "small",
+        "height": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
