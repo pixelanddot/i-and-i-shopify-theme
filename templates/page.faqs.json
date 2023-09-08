@@ -55,6 +55,33 @@
             "row_content": "<p>It depends on the nature of the jewellery and your requirements. As all our jewellery are hand made, it will involve a process of design, sampling and making of the final piece. Typically we would want to allow at least 12 weeks especially when it involves sourcing stones.<\/p>",
             "page": ""
           }
+        },
+        "95fc3cd3-840c-4dcc-9586-192847df0a69": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your exchange, return and refund policy?",
+            "icon": "none",
+            "row_content": "<p>We would be happy to exchange or refund within 7 days of delivery, providing the item is returned to us in the exact condition it was received: therefore undamaged, unworn and in its original packaging. <\/p><p>Please note that earrings are excluded from the refund policy due to hygiene reasons. Also exempt from any refund or exchanges are Bespoke or Made to Order items. For full details on our return and refund policy, please refer to Returns and Refunds page.<\/p>",
+            "page": ""
+          }
+        },
+        "68fa43dd-681d-402c-8131-fcb9998559b0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I order an item that has been sold out?",
+            "icon": "none",
+            "row_content": "<p>In most cases, absolutely. Please email us to find out how long it will take to restock that particular piece.<\/p>",
+            "page": ""
+          }
+        },
+        "a03f4c08-cdea-4291-b0f8-4a92bde87d94": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the stones you use ethically sourced?",
+            "icon": "none",
+            "row_content": "<p>Please rest assured that all the stones are ethically sourced and hand picked by us. As a company, we are committed to caring for the environment and all our partners we work with share our values and ensure the conditions of their workers at met to excellent standards.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -62,7 +89,10 @@
         "616dd615-501c-4c80-af30-37f1cd56c42d",
         "d4d4bb86-624d-4acf-a9d0-6b62d9a9a5bf",
         "c6892573-d58d-4680-81bd-1243d4411327",
-        "2350aed1-1303-4d74-b741-43de24c60cfb"
+        "2350aed1-1303-4d74-b741-43de24c60cfb",
+        "95fc3cd3-840c-4dcc-9586-192847df0a69",
+        "68fa43dd-681d-402c-8131-fcb9998559b0",
+        "a03f4c08-cdea-4291-b0f8-4a92bde87d94"
       ],
       "settings": {
         "caption": "FAQS",
