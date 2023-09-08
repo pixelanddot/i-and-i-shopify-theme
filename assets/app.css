@@ -553,6 +553,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
+.twcss-text-center {
+  text-align: center;
+}
+
 .twcss-font-heading {
   font-family: var(--font-heading-family);
 }
