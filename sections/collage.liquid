@@ -21,7 +21,7 @@
 <div class='color-{{ section.settings.color_scheme }} gradient isolate'>
   <div class='page-width section-{{ section.id }}-padding'>
     {%- if section.settings.heading != blank -%}
-      <h2 class='collage-wrapper-title twcss-uppercase twcss-font-body inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
+      <h2 class='collage-wrapper-title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
     {%- endif -%}
@@ -286,12 +286,20 @@
       "id": "desktop_layout",
       "options": [
         {
-          "value": "left",
+          "value": "five-left",
           "label": "t:sections.collage.settings.desktop_layout.options__1.label"
         },
         {
-          "value": "right",
+          "value": "five-right",
           "label": "t:sections.collage.settings.desktop_layout.options__2.label"
+        }
+        {
+          "value": "six-left",
+          "label": "t:sections.collage.settings.desktop_layout.options__3.label"
+        },
+        {
+          "value": "six-right",
+          "label": "t:sections.collage.settings.desktop_layout.options__4.label"
         }
       ],
       "default": "left",

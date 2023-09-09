@@ -3176,12 +3176,17 @@
         "desktop_layout": {
           "label": "Desktop layout",
           "options__1": {
-            "label": "Image first"
+            "label": "Five (Left)"
           },
           "options__2": {
-            "label": "Image second"
+            "label": "Five (Right)"
           },
-          "info": "Image is always first on mobile."
+          "options__3": {
+            "label": "Six (Left)"
+          },
+          "options__4": {
+            "label": "Six (Right)"
+          },          
         }
       },
       "blocks": {
