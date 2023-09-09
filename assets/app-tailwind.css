@@ -53,5 +53,5 @@
 
 #insta-feed .instafeed-new-carousel-item img,
 .instafeed-shopify .instafeed-new-carousel-item img {
-  @apply !twcss-border-r-4;
+  @apply !twcss-rounded-3xl;
 }
