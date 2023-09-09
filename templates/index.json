@@ -176,6 +176,58 @@
         "padding_bottom": 36
       }
     },
+    "1fb3f7f9-acf2-4bed-8756-d8b8ce82849d": {
+      "type": "collage",
+      "blocks": {
+        "ab1ced14-8007-4deb-b957-5db5c1590290": {
+          "type": "collection",
+          "settings": {
+            "collection": "diamond"
+          }
+        },
+        "483ccc80-1ea6-4aa9-bba5-be5f3e2e70bc": {
+          "type": "collection",
+          "settings": {
+            "collection": "ruby"
+          }
+        },
+        "bd980154-cee9-4041-ae7f-d3604b0d8272": {
+          "type": "collection",
+          "settings": {
+            "collection": "amethyst"
+          }
+        },
+        "ff651baa-1437-4e2c-9433-03e49c49c11b": {
+          "type": "collection",
+          "settings": {
+            "collection": "emerald"
+          }
+        },
+        "0a81aa63-2b64-4343-80c4-29faebf95b3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSB_8126.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "ab1ced14-8007-4deb-b957-5db5c1590290",
+        "483ccc80-1ea6-4aa9-bba5-be5f3e2e70bc",
+        "bd980154-cee9-4041-ae7f-d3604b0d8272",
+        "ff651baa-1437-4e2c-9433-03e49c49c11b",
+        "0a81aa63-2b64-4343-80c4-29faebf95b3d"
+      ],
+      "settings": {
+        "heading": "Find the stone that <em>calls you<\/em>",
+        "heading_size": "h1",
+        "desktop_layout": "five-left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e1794430-b89b-48de-875c-23e32eaf7160": {
       "type": "collection-list",
       "blocks": {
@@ -261,6 +313,7 @@
     "d5feab37-e50c-4606-a46c-884ebc507dbc",
     "5865b7f7-3d2a-45f8-b422-e2a8ea642a2f",
     "collage",
+    "1fb3f7f9-acf2-4bed-8756-d8b8ce82849d",
     "e1794430-b89b-48de-875c-23e32eaf7160",
     "811545d7-f5e0-4a30-9559-b9c30e4ca724"
   ]
