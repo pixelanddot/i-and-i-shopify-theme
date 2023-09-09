@@ -65,23 +65,23 @@
     grid-row-gap: var(--grid-desktop-vertical-spacing);
   }
 
-  .collage-item--right:nth-child(0) {
+  .collage__item--right:nth-child(0) {
     grid-area: 1 / 1 / 3 / 3;
   }
 
-  .collage-item--right:nth-child(1) {
+  .collage__item--right:nth-child(1) {
     grid-area: 3 / 1 / 5 / 3;
   }
 
-  .collage-item--right:nth-child(2) {
+  .collage__item--right:nth-child(2) {
     grid-area: 1 / 3 / 3 / 5;
   }
 
-  .collage-item--right:nth-child(3) {
+  .collage__item--right:nth-child(3) {
     grid-area: 3 / 3 / 5 / 5;
   }
 
-  .collage-item--right:nth-child(4) {
+  .collage__item--right:nth-child(4) {
     grid-area: 1 / 5 / 5 / 9;
   }
 
