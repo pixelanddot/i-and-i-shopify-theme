@@ -43,7 +43,7 @@
     '
     style='--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;'
   >
-    <div
+    <di v
       class='card__inner {% if card_style == 'standard' %}color-{{ card_color_scheme }} gradient{% endif %}{% if card_collection.featured_image or card_style == 'standard' %} ratio{% endif %}'
       style='--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;'
     >
@@ -82,7 +82,7 @@
         </div>
       {%- else -%}
         <div class='card__content'>
-          <div class='card__information'>
+          <div class='card__information twcss-block'>
             <h3 class='card__heading'>
               <a
                 {% if card_collection == blank %}
@@ -111,7 +111,7 @@
       {%- endif -%}
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
-      <div class='card__content'>
+      <div class='card__content twcss-hidden'>
         <div class='card__information'>
           <h3 class='card__heading'>
             <a
