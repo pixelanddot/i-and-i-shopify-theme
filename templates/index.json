@@ -168,7 +168,7 @@
       "settings": {
         "heading": "Explore <em>jewellery<\/em>",
         "heading_size": "h1",
-        "desktop_layout": "right",
+        "desktop_layout": "five-right",
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "background-1",
