@@ -581,8 +581,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: var(--font-heading-family);
 }
 
+.twcss-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .twcss-uppercase {
   text-transform: uppercase;
+}
+
+.twcss-tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 @font-face {
