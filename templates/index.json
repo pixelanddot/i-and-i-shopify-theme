@@ -145,16 +145,16 @@
             "collection": "earrings"
           }
         },
-        "f1d4bdaf-4f85-414c-afa5-83a7433512af": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LSB_8201.jpg"
-          }
-        },
         "54c9b85c-0cc0-40f5-acd8-5b13b81f67ce": {
           "type": "collection",
           "settings": {
             "collection": "bracelets"
+          }
+        },
+        "f1d4bdaf-4f85-414c-afa5-83a7433512af": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSB_8201.jpg"
           }
         }
       },
@@ -162,8 +162,8 @@
         "collection-0",
         "65f8c65a-e910-4989-8e5d-6ba0de22434e",
         "963b8669-32a7-4dc2-853e-4e4692b18b2d",
-        "f1d4bdaf-4f85-414c-afa5-83a7433512af",
-        "54c9b85c-0cc0-40f5-acd8-5b13b81f67ce"
+        "54c9b85c-0cc0-40f5-acd8-5b13b81f67ce",
+        "f1d4bdaf-4f85-414c-afa5-83a7433512af"
       ],
       "settings": {
         "heading": "Explore <em>jewellery<\/em>",
