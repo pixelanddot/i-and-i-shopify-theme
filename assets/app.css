@@ -525,6 +525,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.twcss-grid {
+  display: grid;
+}
+
 .twcss-hidden {
   display: none;
 }
