@@ -529,6 +529,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.\!twcss-block {
+  display: block !important;
+}
+
 .twcss-flex {
   display: flex;
 }
