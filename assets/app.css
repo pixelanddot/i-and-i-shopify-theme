@@ -537,10 +537,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.twcss-grid {
-  display: grid;
-}
-
 .twcss-hidden {
   display: none;
 }
@@ -579,6 +575,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .twcss-font-heading {
   font-family: var(--font-heading-family);
+}
+
+.twcss-font-body {
+  font-family: var(--font-body-family);
+}
+
+.twcss-uppercase {
+  text-transform: uppercase;
 }
 
 @font-face {
