@@ -177,24 +177,64 @@
           "settings": {
             "collection": "gold-vermeil"
           }
-        },
-        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-1",
-        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-2",
-        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-3"
+        "template--20693161967908__e1794430-b89b-48de-875c-23e32eaf7160-featured_collection-2"
       ],
       "settings": {
         "title": "Choose the <em>finest metals<\/em>",
         "heading_size": "h2",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "811545d7-f5e0-4a30-9559-b9c30e4ca724": {
+      "type": "collection-list",
+      "blocks": {
+        "07efa925-b69d-4355-beaf-15d06b0cd58d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-cards"
+          }
+        },
+        "bb386242-b6dc-44d1-a4e3-0d38706b4021": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gifts-under-100"
+          }
+        },
+        "f855b2d3-70aa-4041-b8da-f7e68e7e628e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "under-300"
+          }
+        },
+        "49528ca0-55d3-48b4-ac0d-e9f243afa83d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sets"
+          }
+        }
+      },
+      "block_order": [
+        "07efa925-b69d-4355-beaf-15d06b0cd58d",
+        "bb386242-b6dc-44d1-a4e3-0d38706b4021",
+        "f855b2d3-70aa-4041-b8da-f7e68e7e628e",
+        "49528ca0-55d3-48b4-ac0d-e9f243afa83d"
+      ],
+      "settings": {
+        "title": "Give the gift <em>of elegance<\/em>",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": true,
         "columns_mobile": "1",
@@ -208,6 +248,7 @@
     "d5feab37-e50c-4606-a46c-884ebc507dbc",
     "5865b7f7-3d2a-45f8-b422-e2a8ea642a2f",
     "collage",
-    "e1794430-b89b-48de-875c-23e32eaf7160"
+    "e1794430-b89b-48de-875c-23e32eaf7160",
+    "811545d7-f5e0-4a30-9559-b9c30e4ca724"
   ]
 }
