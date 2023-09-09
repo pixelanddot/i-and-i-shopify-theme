@@ -50,3 +50,8 @@
 .tmenu_item_link {
   @apply !twcss-font-heading;
 }
+
+#insta-feed .instafeed-new-carousel-item img,
+.instafeed-shopify .instafeed-new-carousel-item img {
+  @apply !twcss-border-r-4;
+}
