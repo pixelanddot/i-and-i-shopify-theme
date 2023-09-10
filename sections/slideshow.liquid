@@ -141,7 +141,7 @@
             -%}
             {%- if block.settings.video -%}
               <div class='twcss-z-[1] twcss-absolute slideshow-video twcss-bottom-0'>
-                {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: true }}
+                {{ block.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false }}
               </div>
             {%- endif -%}
             {{
