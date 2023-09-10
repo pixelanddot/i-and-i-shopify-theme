@@ -55,3 +55,7 @@
 .instafeed-shopify .instafeed-new-carousel-item img {
   @apply !twcss-rounded-3xl;
 }
+
+.slideshow-video video {
+  @apply twcss-z-10 twcss-h-auto twcss-bottom-0;
+}
