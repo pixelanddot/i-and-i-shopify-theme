@@ -124,23 +124,6 @@
         "padding_bottom": 36
       }
     },
-    "7261044d-dc71-42e1-9379-17cf9000726a": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LSB_8411_crop.jpg",
-        "image_2": "shopify:\/\/shop_images\/LSB_8428.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -329,7 +312,6 @@
   "order": [
     "d5feab37-e50c-4606-a46c-884ebc507dbc",
     "5865b7f7-3d2a-45f8-b422-e2a8ea642a2f",
-    "7261044d-dc71-42e1-9379-17cf9000726a",
     "collage",
     "1fb3f7f9-acf2-4bed-8756-d8b8ce82849d",
     "e1794430-b89b-48de-875c-23e32eaf7160",
