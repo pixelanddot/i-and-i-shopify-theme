@@ -3037,6 +3037,9 @@
             "image": {
               "label": "Image"
             },
+            "video": {
+              "label": "Video"
+            },
             "heading": {
               "label": "Heading"
             },
