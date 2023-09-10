@@ -57,5 +57,5 @@
 }
 
 .slideshow-video video {
-  @apply twcss-z-10 twcss-h-auto;
+  @apply twcss-z-10 twcss-h-auto twcss-absolute  twcss-bottom-0;
 }
