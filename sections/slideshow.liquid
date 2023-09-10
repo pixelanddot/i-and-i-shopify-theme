@@ -139,6 +139,9 @@
                 assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
               endif
             -%}
+            {%- if block.settings.video -%}
+              {{ block.settings.video }}
+            {%- endif -%}
             {{
               block.settings.image
               | image_url: width: 3840
