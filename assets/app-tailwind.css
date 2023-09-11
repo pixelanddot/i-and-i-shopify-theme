@@ -85,3 +85,8 @@
     font-size: calc(var(--font-heading-scale) * 7rem);
   }
 }
+
+.rich-text__blocks.center h1,
+h2 {
+  text-align: center !important;
+}
