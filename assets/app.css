@@ -749,9 +749,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center !important;
 }
 
-ol,
-ul,
-menu {
+ul {
   list-style: disc !important;
   margin: 1rem !important;
   padding: 1rem !important;

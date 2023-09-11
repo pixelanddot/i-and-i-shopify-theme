@@ -3,18 +3,6 @@
   class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
-  <style>
-    .hidden {
-      display: none;
-    }
-    
-    .show-more-btn {
-      border-bottom-width: 1px;
-      border-bottom-style: solid;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    </style>
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -187,26 +175,7 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {%- assign limit = limit | default: 120 -%}
-                  {%- assign limitAfter = limit | plus: 50 -%}
-                  {%- assign showMoreText = showMoreText | default: 'Show More' -%}
-                  {%- assign showLessText = showLessText | default: 'Show Less' -%}
-                  
-                  {%- if description != blank and description.size > limitAfter -%}
-                    <div x-data="{open: false}">
-                      <div :class="{'hidden': open}">
-                        {{ description | truncate: limit, '. . . ' -}}
-                        <span class="show-more-btn" @click="open = true">{{ showMoreText }}</span>
-                      </div>
-                  
-                      <div class="hidden" :class="{'hidden': !open}">
-                        {{ description }}
-                        <span class="show-more-btn" @click="open = false">{{ showLessText }}</span>
-                      </div>
-                    </div>
-                  {%- else -%}
-                    {{ description }}
-                  {%- endif -%}
+                  {{ product.description }}
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
