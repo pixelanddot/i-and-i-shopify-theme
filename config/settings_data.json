@@ -117,6 +117,10 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "beyond-love",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logohome.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_input_background_color_mode": "white",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
