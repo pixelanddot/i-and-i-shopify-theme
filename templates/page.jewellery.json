@@ -8,6 +8,51 @@
         "padding_bottom": 28
       }
     },
+    "812688ce-d02a-49bf-beca-796f722252cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "0cd9cbbb-53c9-49f6-8e7f-efe06d256e93": {
+          "type": "caption",
+          "settings": {
+            "caption": "JEWELLERY PIECES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Sophistication<\/em>",
+            "heading_size": "h0"
+          }
+        },
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Celebrate your individuality with our delicate and understated contemporary jewellery, perfect for any setting.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0cd9cbbb-53c9-49f6-8e7f-efe06d256e93",
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1",
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1311d393-5418-4023-9bb1-3d4b374a0fec": {
       "type": "image-with-text",
       "blocks": {
@@ -227,13 +272,69 @@
         "padding_top": 36,
         "padding_bottom": 60
       }
+    },
+    "7f82aa46-0d43-4aa5-8c1c-87f8f9334848": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-1",
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "main",
+    "812688ce-d02a-49bf-beca-796f722252cd",
     "1311d393-5418-4023-9bb1-3d4b374a0fec",
     "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957",
     "508edd65-c082-48db-9a8a-f67dc6450dfe",
-    "7b290b92-0ae0-415a-ae8f-34fcb3797832"
+    "7b290b92-0ae0-415a-ae8f-34fcb3797832",
+    "7f82aa46-0d43-4aa5-8c1c-87f8f9334848"
   ]
 }
