@@ -99,11 +99,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c4e55319-cfad-481d-8890-24aa28c7b722": {
+      "type": "image-with-text",
+      "blocks": {
+        "c5b41c0d-dad3-4348-af0a-a76b2877ce9a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sapphire",
+            "heading_size": "h1"
+          }
+        },
+        "cfc18340-315c-4dc2-a6de-a46bcea1fcf8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sapphires have historically been linked to wisdom, truth, and royalty. In ancient times, they were believed to be the gemstone of choice for kings and queens due to their regal blue colour. In various cultures, sapphires have been considered protective stones, shielding the wearer from harm and negative energies while also attracting prosperity, good fortune, and opportunities. Frequently chosen as the centre stone in engagement rings, sapphires symbolise loyalty, commitment, and fidelity.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "5c0fcc50-f255-4df5-aba1-900114935cfa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SAPPHIRE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/sapphire",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "c5b41c0d-dad3-4348-af0a-a76b2877ce9a",
+        "cfc18340-315c-4dc2-a6de-a46bcea1fcf8",
+        "5c0fcc50-f255-4df5-aba1-900114935cfa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ruby.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "c0391c16-c809-4b09-b11e-4899a0cad613",
-    "6965a362-1afa-4feb-9930-f519df5dc20a"
+    "6965a362-1afa-4feb-9930-f519df5dc20a",
+    "c4e55319-cfad-481d-8890-24aa28c7b722"
   ]
 }
