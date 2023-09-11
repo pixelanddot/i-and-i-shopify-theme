@@ -513,8 +513,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
+.twcss-sticky {
+  position: sticky;
+}
+
 .twcss-bottom-0 {
   bottom: 0px;
+}
+
+.twcss-top-\[120px\] {
+  top: 120px;
 }
 
 .twcss-z-\[1\] {
@@ -704,6 +712,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 750px) {
+  .md\:twcss-sticky {
+    position: sticky;
+  }
+
+  .md\:twcss-top-\[120px\] {
+    top: 120px;
+  }
+
   .md\:twcss-flex-col {
     flex-direction: column;
   }
