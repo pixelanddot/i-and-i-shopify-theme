@@ -132,10 +132,56 @@
         "5c0fcc50-f255-4df5-aba1-900114935cfa"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ruby.png",
-        "height": "medium",
+        "image": "shopify:\/\/shop_images\/8001.jpg",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "431d84c3-4015-499c-a41f-1f13126327cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "d4057d76-d13e-4114-b8a0-1d1e869cf8fc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tanzanite",
+            "heading_size": "h1"
+          }
+        },
+        "9991666f-612a-4388-871d-7f4f98cc0818": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tanzanite is often associated with spiritual growth and awareness. Its rich and shifting colours are believed to promote insight, intuition, and a deeper connection with one's inner self. It is seen as a stone that aids in meditation and self-discovery. An artist’s favourite, its vibrant colours can lead to creativity and inspiration.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "812bff79-791f-4f96-b86a-2db31c6edd70": {
+          "type": "button",
+          "settings": {
+            "button_label": "TANZANITE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/tanzanite",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "d4057d76-d13e-4114-b8a0-1d1e869cf8fc",
+        "9991666f-612a-4388-871d-7f4f98cc0818",
+        "812bff79-791f-4f96-b86a-2db31c6edd70"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-10-47-20-bradius7smoothing4.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
@@ -151,6 +197,7 @@
     "main",
     "c0391c16-c809-4b09-b11e-4899a0cad613",
     "6965a362-1afa-4feb-9930-f519df5dc20a",
-    "c4e55319-cfad-481d-8890-24aa28c7b722"
+    "c4e55319-cfad-481d-8890-24aa28c7b722",
+    "431d84c3-4015-499c-a41f-1f13126327cd"
   ]
 }
