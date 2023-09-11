@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -9,6 +10,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -16,10 +18,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0dbd39fd-90ee-4a49-8d89-87e96c139974": {
+      "type": "rich-text",
+      "blocks": {
+        "240379e2-bba7-4693-8db6-41957e0f6b62": {
+          "type": "caption",
+          "settings": {
+            "caption": "Contact",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20693161902372__0dbd39fd-90ee-4a49-8d89-87e96c139974-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here to help, <em>always<\/em>.",
+            "heading_size": "h0"
+          }
+        },
+        "template--20693161902372__0dbd39fd-90ee-4a49-8d89-87e96c139974-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get in touch with your queries or questions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "240379e2-bba7-4693-8db6-41957e0f6b62",
+        "template--20693161902372__0dbd39fd-90ee-4a49-8d89-87e96c139974-heading-1",
+        "template--20693161902372__0dbd39fd-90ee-4a49-8d89-87e96c139974-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "0dbd39fd-90ee-4a49-8d89-87e96c139974"
   ]
 }
