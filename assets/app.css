@@ -513,12 +513,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
-.twcss-bottom-0 {
-  bottom: 0px;
-}
-
 .twcss-bottom-\[-10px\] {
   bottom: -10px;
+}
+
+.twcss-bottom-0 {
+  bottom: 0px;
 }
 
 .twcss-z-\[1\] {
@@ -577,12 +577,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
-.\!twcss-p-0 {
-  padding: 0px !important;
-}
-
 .twcss-p-12 {
   padding: 3rem;
+}
+
+.\!twcss-p-0 {
+  padding: 0px !important;
 }
 
 .twcss-pb-8 {
@@ -699,7 +699,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .slideshow-video video {
   position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   z-index: 10;
   height: 100%;
   width: 100%;
