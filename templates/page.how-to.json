@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8": {
+      "type": "image-with-text",
+      "blocks": {
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Caring for Gold Jewellery",
+            "heading_size": "h1"
+          }
+        },
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds have historically been associated with wealth, power, and prosperity. They are often seen as a symbol of success and financial abundance. In modern days, diamonds are often considered the ultimate symbol of love and commitment. Being the hardest naturally occurring substance on Earth, they are also the primary gemstone used in engagement rings, symbolising eternal love, fidelity, and the enduring bond between two people.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "63f134f0-030a-4b06-af6b-4547164e7019": {
+          "type": "button",
+          "settings": {
+            "button_label": "GOLD JEWELLERY",
+            "button_link": "shopify:\/\/collections\/diamond",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0",
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364",
+        "63f134f0-030a-4b06-af6b-4547164e7019"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "c0391c16-c809-4b09-b11e-4899a0cad613": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Caring for Gold Vermeil Jewellery",
+            "heading_size": "h1"
+          }
+        },
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>i+i makes some selected earrings in gold vermeil. The jewellery is made in silver and then plated in 22K gold. To ensure the longevity of the plating, we use at least 3-micron gold plating technique so with proper care, the jewellery should last you years. However, any jewellery that is not made in solid gold will likely tarnish over time. Therefore, care should be taken when wearing gold vermeil jewellery, such as avoiding harsh chemicals and direct contact with perfume and lotion. Moisture and heat is another factor that could cause tarnish, therefore storing gold vermeil jewellery in cool, dry places is advised. Despite higher maintenance, gold vermeil jewellery come at a more affordable price point than solid gold jewellery, making them a great choice for fashion jewellery.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "eae26793-d8dc-4d53-b328-d819b3615650": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gold Vermeil JEWELLERY",
+            "button_link": "shopify:\/\/collections\/gold-vermeil",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1",
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1",
+        "eae26793-d8dc-4d53-b328-d819b3615650"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/emerald.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6965a362-1afa-4feb-9930-f519df5dc20a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Caring for Gemstones",
+            "heading_size": "h1"
+          }
+        },
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Though varying in colours and durability, the general rule of thumbs for gemstones are similar to caring for gold, such as to avoid harsh chemicals and keep them clean (free from oil and other residues from everyday wear). The stones can be easily cleaned by warm soapy water. Certain gemstones such as emerald can be easily damaged by heat and are not as hardy as diamonds, therefore, special care must be taken when handling them, especially for bespoke pieces, where the gemstones tend to be larger. If you would like to understand further specific instructions on how to care for your special piece of jewellery, <a href=\"\/pages\/contact\" title=\"Contact\">please get in touch<\/a>.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e",
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8",
+    "c0391c16-c809-4b09-b11e-4899a0cad613",
+    "6965a362-1afa-4feb-9930-f519df5dc20a"
+  ]
+}

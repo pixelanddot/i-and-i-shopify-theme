@@ -8,6 +8,52 @@
         "padding_bottom": 28
       }
     },
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8": {
+      "type": "image-with-text",
+      "blocks": {
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Diamond",
+            "heading_size": "h1"
+          }
+        },
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds have historically been associated with wealth, power, and prosperity. They are often seen as a symbol of success and financial abundance. In modern days, diamonds are often considered the ultimate symbol of love and commitment. Being the hardest naturally occurring substance on Earth, they are also the primary gemstone used in engagement rings, symbolising eternal love, fidelity, and the enduring bond between two people.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "63f134f0-030a-4b06-af6b-4547164e7019": {
+          "type": "button",
+          "settings": {
+            "button_label": "DIAMOND JEWELLERY",
+            "button_link": "shopify:\/\/collections\/diamond",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0",
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364",
+        "63f134f0-030a-4b06-af6b-4547164e7019"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7930.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
     "c0391c16-c809-4b09-b11e-4899a0cad613": {
       "type": "image-with-text",
       "blocks": {
@@ -44,7 +90,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -87,7 +133,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ruby.png",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -136,7 +182,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -179,10 +225,102 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2023-05-22-10-47-20-bradius7smoothing4.jpg",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207": {
+      "type": "image-with-text",
+      "blocks": {
+        "799ca8f0-9b02-45f5-a681-8c375ddef156": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tourmaline",
+            "heading_size": "h1"
+          }
+        },
+        "c960865f-9396-4d4a-8e47-9bbeba31a345": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tourmaline is believed by many to have protective properties, shielding the wearer from negative energies and promoting a sense of security. They come in an array of colour, therefore making it a perfect stone for an artist’s imagery play, capturing the unique andloving energy it produces.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "823bfc58-7481-4cb7-94de-a3c7869153bc": {
+          "type": "button",
+          "settings": {
+            "button_label": "TOURMALINE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/sapphire",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "799ca8f0-9b02-45f5-a681-8c375ddef156",
+        "c960865f-9396-4d4a-8e47-9bbeba31a345",
+        "823bfc58-7481-4cb7-94de-a3c7869153bc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7893.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "08ec5701-d91b-4e1c-b7ea-ce13ab48a7a3": {
+      "type": "image-with-text",
+      "blocks": {
+        "0445150a-dfbf-43d4-8158-de0d2765e233": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amethyst",
+            "heading_size": "h1"
+          }
+        },
+        "103549fa-74bf-47f2-aa3e-18106e2c0874": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Amethyst is associated with inner peace, calmness, and emotional balance. It's believed to help alleviate stress, anxiety, and negative emotions, fostering a sense of tranquility and serenity. It is also considered a stone of wisdom, aiding in decision-making and problem-solving by providing clarity and insight.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "54472c51-95c5-4628-896f-299d684d4ebd": {
+          "type": "button",
+          "settings": {
+            "button_label": "AMETHYST JEWELLERY",
+            "button_link": "shopify:\/\/collections\/amethyst",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "0445150a-dfbf-43d4-8158-de0d2765e233",
+        "103549fa-74bf-47f2-aa3e-18106e2c0874",
+        "54472c51-95c5-4628-896f-299d684d4ebd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-13-10-24-bradius7smoothing4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -195,9 +333,12 @@
   },
   "order": [
     "main",
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8",
     "c0391c16-c809-4b09-b11e-4899a0cad613",
     "6965a362-1afa-4feb-9930-f519df5dc20a",
     "c4e55319-cfad-481d-8890-24aa28c7b722",
-    "431d84c3-4015-499c-a41f-1f13126327cd"
+    "431d84c3-4015-499c-a41f-1f13126327cd",
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207",
+    "08ec5701-d91b-4e1c-b7ea-ce13ab48a7a3"
   ]
 }
