@@ -57,11 +57,75 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>EMAIL<\/p>",
+            "link_label": "info@iandijewellery.com",
+            "link": "mailto:info@iandijewellery.com"
+          }
+        },
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>PHONE<\/p>",
+            "link_label": "+44 (0) 7887-920-052",
+            "link": "tel:+44 (0) 7887-920-052"
+          }
+        },
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>PRESS ENQUIRIES<\/p>",
+            "link_label": "info@iandijewellery.com",
+            "link": "mailto:info@iandijewellery.com"
+          }
+        },
+        "58f3b9e8-7d06-4477-8c59-3fbac0424470": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>WHOLESALE ENQUIRIES<\/p>",
+            "link_label": "grace@iandijewellery.com",
+            "link": "mailto:grace@iandijewellery.com"
+          }
+        }
+      },
+      "block_order": [
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-1",
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-2",
+        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-3",
+        "58f3b9e8-7d06-4477-8c59-3fbac0424470"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "0dbd39fd-90ee-4a49-8d89-87e96c139974"
+    "0dbd39fd-90ee-4a49-8d89-87e96c139974",
+    "5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6"
   ]
 }
