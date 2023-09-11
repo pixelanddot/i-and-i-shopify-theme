@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "ab821bb7-dc68-42b2-b81c-ed5bcf8a3c36": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "16938017581df04719": {
       "type": "apps",
       "blocks": {
@@ -10,12 +19,15 @@
           "settings": {
             "heading_size": 30,
             "feed_width": 100,
-            "html_area": "<style>h2 {text-align:left};\nh2 span {color:}\n<\/style>"
+            "html_area": "<style>h2 {text-align:left};\nh2 span {color:}\n\n<\/style>"
           }
         }
       },
       "block_order": [
         "90f0a90d-7eee-4620-9d08-c150d4253b17"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "include_margins": true
@@ -118,6 +130,7 @@
     }
   },
   "order": [
+    "ab821bb7-dc68-42b2-b81c-ed5bcf8a3c36",
     "16938017581df04719",
     "c126bb0e-e828-4da6-8f96-9ef8ec719701",
     "footer"
