@@ -10,13 +10,13 @@
 
 @font-face {
   font-family: 'Jazmin';
-  src: url('Jazmin-Medium.woff2') format('woff2');
+  src: url('Jazmin-Regular.woff2') format('woff2');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Jazmin';
-  src: url('Jazmin-MediumIt.woff2') format('woff2');
+  src: url('Jazmin-RegularIt.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
 }
