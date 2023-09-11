@@ -63,6 +63,24 @@
             "page": ""
           }
         },
+        "72b4878d-7cda-4f54-9def-efee721830a1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to wear it",
+            "icon": "question_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "2a255d98-fdbb-427a-8662-64fd81c20d3a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials & Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -98,6 +116,8 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-2",
+        "72b4878d-7cda-4f54-9def-efee721830a1",
+        "2a255d98-fdbb-427a-8662-64fd81c20d3a",
         "collapsible-row-1",
         "collapsible-row-3",
         "share"
