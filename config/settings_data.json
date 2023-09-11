@@ -119,8 +119,11 @@
     "cart_drawer_collection": "beyond-love",
     "checkout_logo_image": "shopify:\/\/shop_images\/logohome.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "large",
     "checkout_input_background_color_mode": "white",
+    "checkout_heading_font": "Abel",
+    "checkout_body_font": "Open Sans",
+    "checkout_button_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
