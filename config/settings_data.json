@@ -117,7 +117,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "beyond-love",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logohome.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo.svg",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "shopify:\/\/shop_images\/LSB_8411-crop.jpg",
