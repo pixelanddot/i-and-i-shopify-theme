@@ -13,7 +13,7 @@
         "template--20866312929572__9a771336-50d0-4f04-92f2-4e823f38332d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>It has been a long time coming since our last newsletter update. I would like to take this opportunity to introduce myself. My name is Grace Ding. I became the Creative Director of I and I Jewellery (i+i) a year ago, succeeding my very talented dear friend Kirsty Patterson who many of you know and love. I should have properly introduced myself back then, but I took the liberty wait until now, for reasons I will explain further in this newsletter. I hope you will spare me the time to read it, and I promise it won’t be long. <\/p><p><\/p><p>Fate has it that Kirsty and I met during the middle of the pandemic when our eldest daughters went to nursery together. It was a strange time for everyone, but just like most things in life bear a silver lining, mine was meeting Kirsty and the many lovely parents through nursery. I very quickly became a fan of i+i as I had been searching high and low for a jewellery brand that embodied both style and understated elegance, something that can be so small in size yet so impressionable in its presence. Having always been a fan of jewellery, I found myself increasingly gravitating towards i+i jewellery pieces only, because I finally found a brand that felt like it was tailor made for me. As Kirsty chose to focus on her family life, she was looking for someone to take over her company, which she refers to as her ‘first baby’, a brand she’s built for 10 years from scratch. She was looking for someone who would share her creative vision and personal style. At that time, I was almost due to return to my corporate job after my second maternity leave. I am sure by now you think it’s just another change of career story you’ve heard many times, which it is, but also it isn’t. Throughout the past year, what I’ve realised is that running a business in an industry you had never set foot in bears huge risks. I’m not going to lie, I’ve had moments of doubts, wondering why I had left a comfortable career that I built over the last 10 years and opted for a brand new start. But here am I now, writing to you all, telling you that despite the many sleepless nights, frustration, sweat and tears, I have loved every moment of it. It really was a dream come true, for I took the chance into doing something creative that I was too scared to make a career out of 15 years ago. It was going to be now or never, I have worked really hard and learned so much in the past year. It is now my pleasure to present you with our new website and our brand new collection which I’ve worked really hard on, from personally sketching each design, to sampling and fine tuning, to instructing the final production. The Beyond Love Collection was born out of love and passion with the support of my family and friends, especially shout out to Kirsty and my husband Shaun who always believe in me when I questioned myself and for their unequivocally support.<\/p>",
+            "text": "<p>It has been a long time coming since our last newsletter update. I would like to take this opportunity to introduce myself. My name is Grace Ding. I became the Creative Director of I and I Jewellery (i+i) a year ago, succeeding my very talented dear friend Kirsty Patterson who many of you know and love. I should have properly introduced myself back then, but I took the liberty wait until now, for reasons I will explain further in this newsletter. I hope you will spare me the time to read it, and I promise it won’t be long.<\/p>",
             "text_style": "body"
           }
         }
@@ -23,18 +23,18 @@
         "template--20866312929572__9a771336-50d0-4f04-92f2-4e823f38332d-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image2_42a5da29-510d-41b0-8fa9-2b1f37102a30.jpg",
-        "height": "small",
+        "image": "shopify:\/\/shop_images\/image2_65067cec-3c7e-4403-a3c6-5af4324b90ae.png",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "main": {
@@ -76,10 +76,33 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "9bc678ec-c7d8-499b-b685-0cb561b2efe8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20866312929572__9bc678ec-c7d8-499b-b685-0cb561b2efe8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fate has it that Kirsty and I met during the middle of the pandemic when our eldest daughters went to nursery together. It was a strange time for everyone, but just like most things in life bear a silver lining, mine was meeting Kirsty and the many lovely parents through nursery. I very quickly became a fan of i+i as I had been searching high and low for a jewellery brand that embodied both style and understated elegance, something that can be so small in size yet so impressionable in its presence. <br\/><br\/>Having always been a fan of jewellery, I found myself increasingly gravitating towards i+i jewellery pieces only, because I finally found a brand that felt like it was tailor made for me. As Kirsty chose to focus on her family life, she was looking for someone to take over her company, which she refers to as her ‘first baby’, a brand she’s built for 10 years from scratch. She was looking for someone who would share her creative vision and personal style. At that time, I was almost due to return to my corporate job after my second maternity leave. I am sure by now you think it’s just another change of career story you’ve heard many times, which it is, but also it isn’t. <br\/><br\/>Throughout the past year, what I’ve realised is that running a business in an industry you had never set foot in bears huge risks. I’m not going to lie, I’ve had moments of doubts, wondering why I had left a comfortable career that I built over the last 10 years and opted for a brand new start. But here am I now, writing to you all, telling you that despite the many sleepless nights, frustration, sweat and tears, I have loved every moment of it. It really was a dream come true, for I took the chance into doing something creative that I was too scared to make a career out of 15 years ago. It was going to be now or never, I have worked really hard and learned so much in the past year. <br\/><br\/>It is now my pleasure to present you with our new website and our brand new collection which I’ve worked really hard on, from personally sketching each design, to sampling and fine tuning, to instructing the final production. The Beyond Love Collection was born out of love and passion with the support of my family and friends, especially shout out to Kirsty and my husband Shaun who always believe in me when I questioned myself and for their unequivocally support.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866312929572__9bc678ec-c7d8-499b-b685-0cb561b2efe8-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "9a771336-50d0-4f04-92f2-4e823f38332d",
-    "main"
+    "main",
+    "9bc678ec-c7d8-499b-b685-0cb561b2efe8"
   ]
 }
