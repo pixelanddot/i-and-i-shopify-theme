@@ -57,12 +57,21 @@
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2
-                class='image-with-text__heading inline-richtext {{ block.settings.heading_size }}'
-                {{ block.shopify_attributes }}
-              >
-                {{ block.settings.heading }}
-              </h2>
+              {%- if block.settings.heading_size == 'heading1' -%}
+                <h1
+                  class='image-with-text__heading inline-richtext'
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.heading }}
+                </h1>
+              {%- else -%}
+                <h2
+                  class='image-with-text__heading inline-richtext {{ block.settings.heading_size }}'
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.heading }}
+                </h2>
+              {%- endif -%}
             {%- when 'caption' -%}
               <p
                 class='image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}'
@@ -332,6 +341,10 @@
             {
               "value": "h0",
               "label": "t:sections.all.heading_size.options__3.label"
+            }
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__4.label"
             }
           ],
           "default": "h1",

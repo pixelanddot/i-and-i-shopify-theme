@@ -1529,6 +1529,9 @@
           "options__3": {
             "label": "Large"
           },
+          "options__4": {
+            "label": "Heading 1"
+          },
           "label": "Heading size"
         },
         "text_style": {
