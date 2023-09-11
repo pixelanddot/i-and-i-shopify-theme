@@ -775,6 +775,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2rem;
   }
 
+  .md\:\!twcss-mb-8 {
+    margin-bottom: 2rem !important;
+  }
+
   .md\:twcss-flex-col {
     flex-direction: column;
   }
