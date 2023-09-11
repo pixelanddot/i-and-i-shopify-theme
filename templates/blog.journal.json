@@ -23,6 +23,7 @@
         "81550703-c9e6-4f37-9d3a-145d8bc79bf9",
         "template--20824227447076__f0813f39-51e6-47bc-9e52-b4a44fefc03d-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -36,7 +37,7 @@
       "type": "main-blog",
       "settings": {
         "layout": "grid",
-        "show_image": false,
+        "show_image": true,
         "image_height": "medium",
         "show_date": true,
         "show_author": false,
