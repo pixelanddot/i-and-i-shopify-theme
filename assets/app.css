@@ -705,11 +705,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: var(--font-body-family) !important;
 }
 
-.tmenu_app_mobile .tmenu_item_layout_text .tmenu_item_link {
+.tmenu_item_layout_text .tmenu_item_link {
   font-family: var(--font-body-family) !important;
 }
 
-.tmenu_app_mobile .tmenu_item_layout_collection .tmenu_item_link {
+.tmenu_item_layout_collection .tmenu_item_link {
   font-family: var(--font-body-family) !important;
 }
 
