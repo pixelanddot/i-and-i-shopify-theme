@@ -44,13 +44,13 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 36
       }
     },
@@ -90,7 +90,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -136,7 +136,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -182,7 +182,53 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207": {
+      "type": "image-with-text",
+      "blocks": {
+        "799ca8f0-9b02-45f5-a681-8c375ddef156": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tourmaline",
+            "heading_size": "h1"
+          }
+        },
+        "c960865f-9396-4d4a-8e47-9bbeba31a345": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tourmaline is believed by many to have protective properties, shielding the wearer from negative energies and promoting a sense of security. They come in an array of colour, therefore making it a perfect stone for an artist’s imagery play, capturing the unique andloving energy it produces.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "823bfc58-7481-4cb7-94de-a3c7869153bc": {
+          "type": "button",
+          "settings": {
+            "button_label": "TOURMALINE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/sapphire",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "799ca8f0-9b02-45f5-a681-8c375ddef156",
+        "c960865f-9396-4d4a-8e47-9bbeba31a345",
+        "823bfc58-7481-4cb7-94de-a3c7869153bc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8001.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -198,6 +244,7 @@
     "c0391c16-c809-4b09-b11e-4899a0cad613",
     "6965a362-1afa-4feb-9930-f519df5dc20a",
     "c4e55319-cfad-481d-8890-24aa28c7b722",
-    "431d84c3-4015-499c-a41f-1f13126327cd"
+    "431d84c3-4015-499c-a41f-1f13126327cd",
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207"
   ]
 }
