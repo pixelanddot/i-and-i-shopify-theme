@@ -19,6 +19,13 @@
             "text_size": "medium"
           }
         },
+        "2f6a74a1-f91a-49ea-a365-a370ad1828cb": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>THE ESSENCE OF<\/h2>",
+            "text_style": "body"
+          }
+        },
         "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1": {
           "type": "heading",
           "settings": {
@@ -36,13 +43,15 @@
       },
       "block_order": [
         "0cd9cbbb-53c9-49f6-8e7f-efe06d256e93",
+        "2f6a74a1-f91a-49ea-a365-a370ad1828cb",
         "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1",
         "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/8163_24fbd1fa-86c5-4fb1-b791-407a16ef2bf9.jpg",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
