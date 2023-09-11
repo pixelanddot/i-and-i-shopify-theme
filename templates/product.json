@@ -45,6 +45,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "leather",
@@ -54,6 +55,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -137,6 +139,7 @@
         "template--20693162328356__affc9ab4-f5da-4f58-a4bd-d2e9fe99a58d-heading-1",
         "template--20693162328356__affc9ab4-f5da-4f58-a4bd-d2e9fe99a58d-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.model_image.value }}",
         "height": "medium",
