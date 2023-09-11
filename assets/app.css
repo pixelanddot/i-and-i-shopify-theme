@@ -517,6 +517,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
+.twcss-bottom-\[-10px\] {
+  bottom: -10px;
+}
+
 .twcss-z-\[1\] {
   z-index: 1;
 }
