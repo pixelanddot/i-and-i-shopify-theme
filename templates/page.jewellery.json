@@ -48,9 +48,10 @@
         "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/8163_24fbd1fa-86c5-4fb1-b791-407a16ef2bf9.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
