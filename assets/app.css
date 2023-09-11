@@ -549,6 +549,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none !important;
 }
 
+.twcss-h-full {
+  height: 100%;
+}
+
 .twcss-w-full {
   width: 100%;
 }
@@ -608,6 +612,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .twcss-text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.twcss-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .twcss-uppercase {
