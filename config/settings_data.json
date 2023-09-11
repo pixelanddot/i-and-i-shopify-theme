@@ -121,8 +121,10 @@
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_input_background_color_mode": "white",
-    "checkout_heading_font": "Abel",
+    "checkout_sidebar_background_color": "#f9f9f9",
+    "checkout_heading_font": "Source Sans Pro",
     "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#242833",
     "checkout_button_color": "#121212",
     "sections": {
       "main-password-header": {
