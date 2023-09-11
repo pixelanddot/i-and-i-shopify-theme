@@ -2,13 +2,117 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1311d393-5418-4023-9bb1-3d4b374a0fec": {
+      "type": "image-with-text",
+      "blocks": {
+        "74018da9-a31c-4a3c-b450-9a2f6bd538bc": {
+          "type": "caption",
+          "settings": {
+            "caption": "RINGS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "That <em>final touch<\/em> of <em>luxury<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete your look and reflect your personality through a variety of timeless classics and modern creations. Our luxury rings complement a refined taste that elevates any outfit. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/rings",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "74018da9-a31c-4a3c-b450-9a2f6bd538bc",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-heading-1",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-text-1",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ring.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957": {
+      "type": "image-with-text",
+      "blocks": {
+        "5870c675-e294-4689-b09d-44541116bad1": {
+          "type": "heading",
+          "settings": {
+            "heading": "That <em>final touch<\/em> of <em>luxury<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "671a7434-b15f-44cc-b864-de019a7b2fce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete your look and reflect your personality through a variety of timeless classics and modern creations. Our luxury rings complement a refined taste that elevates any outfit. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "f79400fb-5045-4d2b-b911-f4d8f260ece1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/collections\/rings",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "5870c675-e294-4689-b09d-44541116bad1",
+        "671a7434-b15f-44cc-b864-de019a7b2fce",
+        "f79400fb-5045-4d2b-b911-f4d8f260ece1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ring.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1311d393-5418-4023-9bb1-3d4b374a0fec",
+    "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957"
   ]
 }
