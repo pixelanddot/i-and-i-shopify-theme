@@ -64,8 +64,8 @@
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-1": {
           "type": "column",
           "settings": {
-            "title": "Email",
-            "text": "",
+            "title": "",
+            "text": "<p>EMAIL<\/p>",
             "link_label": "info@iandijewellery.com",
             "link": "mailto:info@iandijewellery.com"
           }
@@ -73,28 +73,28 @@
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>PHONE<\/p>",
+            "link_label": "+44 (0) 7887-920-052",
+            "link": "tel:+44 (0) 7887-920-052"
           }
         },
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>PRESS ENQUIRIES<\/p>",
+            "link_label": "info@iandijewellery.com",
+            "link": "mailto:info@iandijewellery.com"
           }
         },
         "58f3b9e8-7d06-4477-8c59-3fbac0424470": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "",
+            "text": "<p>WHOLESALE ENQUIRIES<\/p>",
+            "link_label": "grace@iandijewellery.com",
+            "link": "mailto:grace@iandijewellery.com"
           }
         }
       },
