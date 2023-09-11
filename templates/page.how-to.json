@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8": {
+      "type": "image-with-text",
+      "blocks": {
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Diamond",
+            "heading_size": "h1"
+          }
+        },
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diamonds have historically been associated with wealth, power, and prosperity. They are often seen as a symbol of success and financial abundance. In modern days, diamonds are often considered the ultimate symbol of love and commitment. Being the hardest naturally occurring substance on Earth, they are also the primary gemstone used in engagement rings, symbolising eternal love, fidelity, and the enduring bond between two people.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "63f134f0-030a-4b06-af6b-4547164e7019": {
+          "type": "button",
+          "settings": {
+            "button_label": "DIAMOND JEWELLERY",
+            "button_link": "shopify:\/\/collections\/diamond",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0",
+        "5fabb76e-8dbd-4046-aa1f-f8e20943e364",
+        "63f134f0-030a-4b06-af6b-4547164e7019"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7930.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "c0391c16-c809-4b09-b11e-4899a0cad613": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Emerald",
+            "heading_size": "h1"
+          }
+        },
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Known for its healing and protective power in ancient times, emeralds have long been associated with love and loyalty. The vibrant green colour of emeralds is often associated with the renewal of life and hope. <\/p><p>The stone is also thought to facilitate open and honest communication, making it easier to express one's feelings and emotions. One of the most sought-after stone for its natural beauty, emeralds also encourage mental clarity and insight, enhance intuition and provide a sense of wisdom and discernment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "eae26793-d8dc-4d53-b328-d819b3615650": {
+          "type": "button",
+          "settings": {
+            "button_label": "EMERALD JEWELLERY",
+            "button_link": "shopify:\/\/collections\/emerald",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1",
+        "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1",
+        "eae26793-d8dc-4d53-b328-d819b3615650"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/emerald.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6965a362-1afa-4feb-9930-f519df5dc20a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ruby",
+            "heading_size": "h1"
+          }
+        },
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A stone that has historically represented strength and courage, rubies are often seen as a symbol of passion, love, and desire. Their deep red colour is associated with the intensity of emotions and the warmth of the heart. In modern times, rubies are often associated with wealth, success, and prosperity. <\/p><p>Rubies have also been thought to provide protection from negative energies and harmful influences, therefore shield the wearer from harm and negative forces, promoting safety and well-being.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "70d2b9b6-7d19-4504-9d5f-a8ad49e81e03": {
+          "type": "button",
+          "settings": {
+            "button_label": "RUBY JEWELLERY",
+            "button_link": "shopify:\/\/collections\/ruby",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "6608e8cc-7099-48dd-b1d0-d83657528c3e",
+        "5b7d2a6a-56cd-4264-92b9-706b1712ddd9",
+        "70d2b9b6-7d19-4504-9d5f-a8ad49e81e03"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ruby.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c4e55319-cfad-481d-8890-24aa28c7b722": {
+      "type": "image-with-text",
+      "blocks": {
+        "c5b41c0d-dad3-4348-af0a-a76b2877ce9a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sapphire",
+            "heading_size": "h1"
+          }
+        },
+        "cfc18340-315c-4dc2-a6de-a46bcea1fcf8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sapphires have historically been linked to wisdom, truth, and royalty. In ancient times, they were believed to be the gemstone of choice for kings and queens due to their regal blue colour. In various cultures, sapphires have been considered protective stones, shielding the wearer from harm and negative energies while also attracting prosperity, good fortune, and opportunities. Frequently chosen as the centre stone in engagement rings, sapphires symbolise loyalty, commitment, and fidelity.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "5c0fcc50-f255-4df5-aba1-900114935cfa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SAPPHIRE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/sapphire",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "c5b41c0d-dad3-4348-af0a-a76b2877ce9a",
+        "cfc18340-315c-4dc2-a6de-a46bcea1fcf8",
+        "5c0fcc50-f255-4df5-aba1-900114935cfa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/8001.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "431d84c3-4015-499c-a41f-1f13126327cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "d4057d76-d13e-4114-b8a0-1d1e869cf8fc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tanzanite",
+            "heading_size": "h1"
+          }
+        },
+        "9991666f-612a-4388-871d-7f4f98cc0818": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tanzanite is often associated with spiritual growth and awareness. Its rich and shifting colours are believed to promote insight, intuition, and a deeper connection with one's inner self. It is seen as a stone that aids in meditation and self-discovery. An artist’s favourite, its vibrant colours can lead to creativity and inspiration.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "812bff79-791f-4f96-b86a-2db31c6edd70": {
+          "type": "button",
+          "settings": {
+            "button_label": "TANZANITE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/tanzanite",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "d4057d76-d13e-4114-b8a0-1d1e869cf8fc",
+        "9991666f-612a-4388-871d-7f4f98cc0818",
+        "812bff79-791f-4f96-b86a-2db31c6edd70"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-10-47-20-bradius7smoothing4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207": {
+      "type": "image-with-text",
+      "blocks": {
+        "799ca8f0-9b02-45f5-a681-8c375ddef156": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tourmaline",
+            "heading_size": "h1"
+          }
+        },
+        "c960865f-9396-4d4a-8e47-9bbeba31a345": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tourmaline is believed by many to have protective properties, shielding the wearer from negative energies and promoting a sense of security. They come in an array of colour, therefore making it a perfect stone for an artist’s imagery play, capturing the unique andloving energy it produces.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "823bfc58-7481-4cb7-94de-a3c7869153bc": {
+          "type": "button",
+          "settings": {
+            "button_label": "TOURMALINE JEWELLERY",
+            "button_link": "shopify:\/\/collections\/sapphire",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "799ca8f0-9b02-45f5-a681-8c375ddef156",
+        "c960865f-9396-4d4a-8e47-9bbeba31a345",
+        "823bfc58-7481-4cb7-94de-a3c7869153bc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7893.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "08ec5701-d91b-4e1c-b7ea-ce13ab48a7a3": {
+      "type": "image-with-text",
+      "blocks": {
+        "0445150a-dfbf-43d4-8158-de0d2765e233": {
+          "type": "heading",
+          "settings": {
+            "heading": "Amethyst",
+            "heading_size": "h1"
+          }
+        },
+        "103549fa-74bf-47f2-aa3e-18106e2c0874": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Amethyst is associated with inner peace, calmness, and emotional balance. It's believed to help alleviate stress, anxiety, and negative emotions, fostering a sense of tranquility and serenity. It is also considered a stone of wisdom, aiding in decision-making and problem-solving by providing clarity and insight.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "54472c51-95c5-4628-896f-299d684d4ebd": {
+          "type": "button",
+          "settings": {
+            "button_label": "AMETHYST JEWELLERY",
+            "button_link": "shopify:\/\/collections\/amethyst",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "0445150a-dfbf-43d4-8158-de0d2765e233",
+        "103549fa-74bf-47f2-aa3e-18106e2c0874",
+        "54472c51-95c5-4628-896f-299d684d4ebd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2023-05-22-13-10-24-bradius7smoothing4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f6e61445-9f0b-4bca-ab83-eee2454549f8",
+    "c0391c16-c809-4b09-b11e-4899a0cad613",
+    "6965a362-1afa-4feb-9930-f519df5dc20a",
+    "c4e55319-cfad-481d-8890-24aa28c7b722",
+    "431d84c3-4015-499c-a41f-1f13126327cd",
+    "0e3f5b14-c3d8-4af0-a1c9-039cb0d0e207",
+    "08ec5701-d91b-4e1c-b7ea-ce13ab48a7a3"
+  ]
+}
