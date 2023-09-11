@@ -14,7 +14,7 @@
         "f2d46d39-d0e4-45e0-8e14-0d0ced6e7bc0": {
           "type": "heading",
           "settings": {
-            "heading": "Gold",
+            "heading": "Caring for Gold Jewellery",
             "heading_size": "h1"
           }
         },
@@ -40,11 +40,11 @@
         "63f134f0-030a-4b06-af6b-4547164e7019"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/7930.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled-4.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "bottom",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -60,14 +60,14 @@
         "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Emerald",
+            "heading": "Caring for Gold Vermeil Jewellery",
             "heading_size": "h1"
           }
         },
         "template--20822501130532__c0391c16-c809-4b09-b11e-4899a0cad613-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Known for its healing and protective power in ancient times, emeralds have long been associated with love and loyalty. The vibrant green colour of emeralds is often associated with the renewal of life and hope. <\/p><p>The stone is also thought to facilitate open and honest communication, making it easier to express one's feelings and emotions. One of the most sought-after stone for its natural beauty, emeralds also encourage mental clarity and insight, enhance intuition and provide a sense of wisdom and discernment.<\/p>",
+            "text": "<p>i+i makes some selected earrings in gold vermeil. The jewellery is made in silver and then plated in 22K gold. To ensure the longevity of the plating, we use at least 3-micron gold plating technique so with proper care, the jewellery should last you years. However, any jewellery that is not made in solid gold will likely tarnish over time. Therefore, care should be taken when wearing gold vermeil jewellery, such as avoiding harsh chemicals and direct contact with perfume and lotion. Moisture and heat is another factor that could cause tarnish, therefore storing gold vermeil jewellery in cool, dry places is advised. Despite higher maintenance, gold vermeil jewellery come at a more affordable price point than solid gold jewellery, making them a great choice for fashion jewellery.<\/p>",
             "text_style": "body"
           }
         },
@@ -87,10 +87,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/emerald.jpg",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "bottom",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
@@ -106,7 +106,7 @@
         "6608e8cc-7099-48dd-b1d0-d83657528c3e": {
           "type": "heading",
           "settings": {
-            "heading": "Gemstones",
+            "heading": "Caring for Gemstones",
             "heading_size": "h1"
           }
         },
@@ -123,7 +123,7 @@
         "5b7d2a6a-56cd-4264-92b9-706b1712ddd9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/23-05-22-i_i-jewellery66836.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled-3.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
