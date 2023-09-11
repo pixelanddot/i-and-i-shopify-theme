@@ -1,0 +1,340 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "812688ce-d02a-49bf-beca-796f722252cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "0cd9cbbb-53c9-49f6-8e7f-efe06d256e93": {
+          "type": "caption",
+          "settings": {
+            "caption": "JEWELLERY PIECES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Sophistication<\/em>",
+            "heading_size": "h0"
+          }
+        },
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Celebrate your individuality with our delicate and understated contemporary jewellery, perfect for any setting.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0cd9cbbb-53c9-49f6-8e7f-efe06d256e93",
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-heading-1",
+        "template--20864760512804__812688ce-d02a-49bf-beca-796f722252cd-text-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1311d393-5418-4023-9bb1-3d4b374a0fec": {
+      "type": "image-with-text",
+      "blocks": {
+        "74018da9-a31c-4a3c-b450-9a2f6bd538bc": {
+          "type": "caption",
+          "settings": {
+            "caption": "RINGS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "That <em>final touch<\/em> of <em>luxury<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete your look and reflect your personality through a variety of timeless classics and modern creations. Our luxury rings complement a refined taste that elevates any outfit. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE RINGS",
+            "button_link": "shopify:\/\/collections\/rings",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "74018da9-a31c-4a3c-b450-9a2f6bd538bc",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-heading-1",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-text-1",
+        "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ring.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957": {
+      "type": "image-with-text",
+      "blocks": {
+        "e9ceb98b-eb09-4d4a-961c-95664e9b0a48": {
+          "type": "caption",
+          "settings": {
+            "caption": "EARRINGS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "5870c675-e294-4689-b09d-44541116bad1": {
+          "type": "heading",
+          "settings": {
+            "heading": "That <em>final touch<\/em> of <em>luxury<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "671a7434-b15f-44cc-b864-de019a7b2fce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complete your look and reflect your personality through a variety of timeless classics and modern creations. Our luxury rings complement a refined taste that elevates any outfit. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "f79400fb-5045-4d2b-b911-f4d8f260ece1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE EARRINGS",
+            "button_link": "shopify:\/\/collections\/rings",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "e9ceb98b-eb09-4d4a-961c-95664e9b0a48",
+        "5870c675-e294-4689-b09d-44541116bad1",
+        "671a7434-b15f-44cc-b864-de019a7b2fce",
+        "f79400fb-5045-4d2b-b911-f4d8f260ece1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/earrings.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "508edd65-c082-48db-9a8a-f67dc6450dfe": {
+      "type": "image-with-text",
+      "blocks": {
+        "898c1eb0-06ec-4640-b1fa-60c2a409bf18": {
+          "type": "caption",
+          "settings": {
+            "caption": "NECKLACES",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "fa4d0ce4-b6f6-421b-bfd6-a29cad9ad67d": {
+          "type": "heading",
+          "settings": {
+            "heading": "A <em>focal point<\/em> for <em>your style<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "6feff268-f3c2-4156-a350-7ee6797f616b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An ode to minimalist and refinement, our necklaces exude charm and sensuality, making you the centre of attention wherever you go.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "e0577843-ad60-4ab7-8bbe-17d677e3e4e4": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE NECKLACES",
+            "button_link": "shopify:\/\/collections\/necklaces",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "898c1eb0-06ec-4640-b1fa-60c2a409bf18",
+        "fa4d0ce4-b6f6-421b-bfd6-a29cad9ad67d",
+        "6feff268-f3c2-4156-a350-7ee6797f616b",
+        "e0577843-ad60-4ab7-8bbe-17d677e3e4e4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/necklaces.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7b290b92-0ae0-415a-ae8f-34fcb3797832": {
+      "type": "image-with-text",
+      "blocks": {
+        "85e204fe-de6e-4d6d-b3b4-42730e1620fe": {
+          "type": "caption",
+          "settings": {
+            "caption": "BRACELETS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "e7d60fb1-9ebf-4593-96b3-d368e204742f": {
+          "type": "heading",
+          "settings": {
+            "heading": "The <em>black dress<\/em> of <em>jewellery<\/em>.",
+            "heading_size": "h1"
+          }
+        },
+        "0847bc4e-481e-4b97-b0a0-44ac51fe6794": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Always in style and perfect for any occasion. With delicate details and fine craftsmanship our bracelets create a whisper of elegance on your wrist – true works of art that you can wear every day.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "61e73361-4edb-48bf-9b30-f03095d56f93": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE BRACELETS",
+            "button_link": "shopify:\/\/collections\/bracelets",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "85e204fe-de6e-4d6d-b3b4-42730e1620fe",
+        "e7d60fb1-9ebf-4593-96b3-d368e204742f",
+        "0847bc4e-481e-4b97-b0a0-44ac51fe6794",
+        "61e73361-4edb-48bf-9b30-f03095d56f93"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bracelets.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "7f82aa46-0d43-4aa5-8c1c-87f8f9334848": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-1",
+        "template--20864760512804__7f82aa46-0d43-4aa5-8c1c-87f8f9334848-slide-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "812688ce-d02a-49bf-beca-796f722252cd",
+    "1311d393-5418-4023-9bb1-3d4b374a0fec",
+    "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957",
+    "508edd65-c082-48db-9a8a-f67dc6450dfe",
+    "7b290b92-0ae0-415a-ae8f-34fcb3797832",
+    "7f82aa46-0d43-4aa5-8c1c-87f8f9334848"
+  ]
+}
