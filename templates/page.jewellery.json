@@ -49,10 +49,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/8163_24fbd1fa-86c5-4fb1-b791-407a16ef2bf9.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "",
