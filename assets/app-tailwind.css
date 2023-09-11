@@ -63,6 +63,11 @@
 .tmenu_app_mobile .tmenu_item_layout_collection {
   @apply twcss-w-1/2;
 }
+
+.tmenu_app_mobile .tmenu_item_layout_text {
+  @apply twcss-w-full;
+}
+
 .tmenu_submenu--mobile {
   @apply !twcss-flex-row twcss-flex-wrap;
 }

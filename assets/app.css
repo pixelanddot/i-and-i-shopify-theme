@@ -695,6 +695,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50%;
 }
 
+.tmenu_app_mobile .tmenu_item_layout_text {
+  width: 100%;
+}
+
 .tmenu_submenu--mobile {
   flex-direction: row !important;
   flex-wrap: wrap;
