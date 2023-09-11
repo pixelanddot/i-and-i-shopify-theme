@@ -529,6 +529,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.twcss-mb-8 {
+  margin-bottom: 2rem;
+}
+
 .twcss-block {
   display: block;
 }
@@ -765,6 +769,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:twcss-top-\[120px\] {
     top: 120px;
+  }
+
+  .md\:twcss-mb-8 {
+    margin-bottom: 2rem;
   }
 
   .md\:twcss-flex-col {
