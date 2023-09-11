@@ -36,7 +36,7 @@
         "template--20864760512804__1311d393-5418-4023-9bb1-3d4b374a0fec-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "EXPLORE RINGS",
             "button_link": "shopify:\/\/collections\/rings",
             "button_style_secondary": true
           }
@@ -66,6 +66,14 @@
     "d6fb6cf5-5ba9-4375-9c8c-47d3d4c14957": {
       "type": "image-with-text",
       "blocks": {
+        "e9ceb98b-eb09-4d4a-961c-95664e9b0a48": {
+          "type": "caption",
+          "settings": {
+            "caption": "EARRINGS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "5870c675-e294-4689-b09d-44541116bad1": {
           "type": "heading",
           "settings": {
@@ -83,13 +91,14 @@
         "f79400fb-5045-4d2b-b911-f4d8f260ece1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "EXPLORE EARRINGS",
             "button_link": "shopify:\/\/collections\/rings",
             "button_style_secondary": true
           }
         }
       },
       "block_order": [
+        "e9ceb98b-eb09-4d4a-961c-95664e9b0a48",
         "5870c675-e294-4689-b09d-44541116bad1",
         "671a7434-b15f-44cc-b864-de019a7b2fce",
         "f79400fb-5045-4d2b-b911-f4d8f260ece1"
