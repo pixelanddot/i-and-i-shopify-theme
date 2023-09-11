@@ -565,6 +565,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
+.twcss-content-center {
+  align-content: center;
+}
+
+.twcss-items-end {
+  align-items: flex-end;
+}
+
 .twcss-items-center {
   align-items: center;
 }
