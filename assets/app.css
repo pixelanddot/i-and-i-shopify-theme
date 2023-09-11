@@ -696,7 +696,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .tmenu_submenu--mobile {
-  flex-direction: row;
+  flex-direction: row !important;
   flex-wrap: wrap;
 }
 

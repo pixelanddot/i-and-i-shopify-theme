@@ -64,5 +64,5 @@
   @apply twcss-w-1/2;
 }
 .tmenu_submenu--mobile {
-  @apply twcss-flex-row twcss-flex-wrap;
+  @apply !twcss-flex-row twcss-flex-wrap;
 }
