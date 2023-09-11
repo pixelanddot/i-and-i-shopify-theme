@@ -61,11 +61,11 @@
 }
 
 .tmenu_app_mobile .tmenu_item_layout_collection {
-  @apply twcss-w-1/2 !font-body;
+  @apply twcss-w-1/2 !twcss-font-body;
 }
 
 .tmenu_app_mobile .tmenu_item_layout_text {
-  @apply twcss-w-full !font-body;
+  @apply twcss-w-full !twcss-font-body;
 }
 
 .tmenu_submenu--mobile {
