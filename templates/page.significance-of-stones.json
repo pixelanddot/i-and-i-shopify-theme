@@ -179,7 +179,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2023-05-22-10-47-20-bradius7smoothing4.jpg",
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
