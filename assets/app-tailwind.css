@@ -90,3 +90,11 @@
 .rich-text__blocks.center h2 {
   text-align: center !important;
 }
+
+ol,
+ul,
+menu {
+  list-style: disc !important;
+  margin: inherit !important;
+  padding: inherit !important;
+}
