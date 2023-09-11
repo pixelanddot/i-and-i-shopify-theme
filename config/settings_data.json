@@ -120,6 +120,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/logohome.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/LSB_8411-crop.jpg",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#f9f9f9",
     "checkout_heading_font": "Source Sans Pro",
