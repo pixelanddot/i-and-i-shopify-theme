@@ -3,6 +3,14 @@
     "9a771336-50d0-4f04-92f2-4e823f38332d": {
       "type": "image-with-text",
       "blocks": {
+        "09c90259-6565-4bc0-b81c-80753c6c7b13": {
+          "type": "caption",
+          "settings": {
+            "caption": "SEPTEMBER NEWSLETTER",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--20866312929572__9a771336-50d0-4f04-92f2-4e823f38332d-heading-1": {
           "type": "heading",
           "settings": {
@@ -19,6 +27,7 @@
         }
       },
       "block_order": [
+        "09c90259-6565-4bc0-b81c-80753c6c7b13",
         "template--20866312929572__9a771336-50d0-4f04-92f2-4e823f38332d-heading-1",
         "template--20866312929572__9a771336-50d0-4f04-92f2-4e823f38332d-text-1"
       ],
