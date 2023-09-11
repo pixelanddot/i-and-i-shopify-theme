@@ -753,4 +753,8 @@ h2 {
   .md\:twcss-flex-col {
     flex-direction: column;
   }
+
+  .md\:twcss-p-12 {
+    padding: 3rem;
+  }
 }
