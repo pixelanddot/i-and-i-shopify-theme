@@ -513,16 +513,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
-.twcss-sticky {
-  position: sticky;
-}
-
 .twcss-bottom-0 {
   bottom: 0px;
-}
-
-.twcss-top-\[120px\] {
-  top: 120px;
 }
 
 .twcss-z-\[1\] {
@@ -605,21 +597,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: var(--font-heading-family);
 }
 
-.\!twcss-font-body {
-  font-family: var(--font-body-family) !important;
-}
-
 .twcss-text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.twcss-font-bold {
-  font-weight: 700;
-}
-
-.\!twcss-font-bold {
-  font-weight: 700 !important;
 }
 
 .twcss-uppercase {
@@ -709,6 +689,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.tmenu_app_mobile .tmenu_item_layout_collection {
+  width: 50%;
 }
 
 @media (min-width: 750px) {
