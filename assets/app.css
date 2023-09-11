@@ -331,6 +331,9 @@ legend {
 ol,
 ul,
 menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -726,7 +729,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .rich-text__blocks.center h1,
-h2 {
+.rich-text__blocks.center h2 {
   text-align: center !important;
 }
 

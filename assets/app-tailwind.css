@@ -87,6 +87,6 @@
 }
 
 .rich-text__blocks.center h1,
-h2 {
+.rich-text__blocks.center h2 {
   text-align: center !important;
 }
