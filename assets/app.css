@@ -606,6 +606,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
+.twcss-text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
 .twcss-uppercase {
   text-transform: uppercase;
 }
