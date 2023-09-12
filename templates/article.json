@@ -18,6 +18,7 @@
         },
         "95de36af-1471-4ae6-924c-9c34f569c085": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
             "image_height": "adapt"
           }
