@@ -132,7 +132,7 @@
       ],
       "settings": {
         "heading": "Find the stone that <em>calls you<\/em>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "five-left",
         "mobile_layout": "collage",
         "card_styles": "none",
