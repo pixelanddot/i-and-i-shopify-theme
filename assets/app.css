@@ -768,6 +768,10 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
     margin-bottom: 2rem !important;
   }
 
+  .md\:twcss-block {
+    display: block;
+  }
+
   .md\:twcss-flex-col {
     flex-direction: column;
   }
