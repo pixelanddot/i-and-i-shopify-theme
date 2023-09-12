@@ -780,6 +780,10 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
     display: none;
   }
 
+  .md\:\!twcss-hidden {
+    display: none !important;
+  }
+
   .md\:twcss-flex-col {
     flex-direction: column;
   }
