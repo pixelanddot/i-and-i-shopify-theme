@@ -111,9 +111,9 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 }
 
 .card__content .cfp-prod-button button {
-  @apply !text-base !twcss-px-1;
+  @apply !twcss-text-base !twcss-px-2;
 }
 
 .card__content .cfp-prod-button button svg {
-  @apply !hidden;
+  @apply !twcss-hidden;
 }
