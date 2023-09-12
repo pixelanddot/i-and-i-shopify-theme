@@ -58,6 +58,9 @@
 
 .slideshow-video video {
   @apply twcss-z-10 twcss-absolute twcss-h-[110%] twcss-w-[110%] twcss-bottom-[-10px] twcss-object-cover;
+  @media (max-width: 749px) {
+    @apply twcss-object-right;
+  }
 }
 
 .tmenu_app_mobile .tmenu_item_layout_collection {
