@@ -58,11 +58,12 @@
 
 .slideshow-video video {
   @apply twcss-z-10 twcss-absolute twcss-h-[110%] twcss-w-[110%] twcss-bottom-[-10px] twcss-object-cover;
-  @media (max-width: 749px) {
+}
+@media (max-width: 749px) {
+  .slideshow-video video {
     @apply twcss-object-right;
   }
 }
-
 .tmenu_app_mobile .tmenu_item_layout_collection {
   @apply twcss-w-1/2 !twcss-font-body;
 }
@@ -106,5 +107,5 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 }
 
 .price__badge-sold-out {
-  @apply hidden;
+  @apply twcss-hidden;
 }

@@ -719,6 +719,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   object-fit: cover;
 }
 
+@media (max-width: 749px) {
+  .slideshow-video video {
+    -o-object-position: right;
+    object-position: right;
+  }
+}
+
 .tmenu_app_mobile .tmenu_item_layout_collection {
   width: 50%;
   font-family: var(--font-body-family) !important;
@@ -759,8 +766,13 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
   padding: 1rem !important;
 }
 
-.collage--mobile .collage__item--five-right:last-of-type {
-  grid-column: span 2;
+.collage--mobile .collage__item--five-right:last-of-type,
+.collage--mobile .collage__item--five-left:last-of-type {
+  grid-column: span 2 !important;
+}
+
+.price__badge-sold-out {
+  display: none;
 }
 
 @media (min-width: 750px) {
