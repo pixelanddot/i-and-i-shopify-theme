@@ -91,7 +91,7 @@
   text-align: center !important;
 }
 
-ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid) {
+ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collection-list) {
   list-style: disc !important;
   margin: 1rem !important;
   padding: 1rem !important;
