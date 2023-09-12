@@ -16,6 +16,12 @@
             "share_label": "Share"
           }
         },
+        "95de36af-1471-4ae6-924c-9c34f569c085": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
         "content": {
           "type": "content",
           "settings": {
@@ -25,6 +31,7 @@
       "block_order": [
         "title",
         "share",
+        "95de36af-1471-4ae6-924c-9c34f569c085",
         "content"
       ],
       "settings": {
