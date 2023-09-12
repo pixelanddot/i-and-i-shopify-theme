@@ -97,6 +97,7 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
   padding: 1rem !important;
 }
 
-.collage--mobile .collage__item--five-right:last-of-type {
+.collage--mobile .collage__item--five-right:last-of-type,
+.collage--mobile .collage__item--five-left:last-of-type {
   grid-column: span 2;
 }
