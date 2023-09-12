@@ -38,6 +38,7 @@
       "blocks": {
         "10988e6e-7809-4c48-8735-99b651df076e": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p>MAILING LIST<\/p>"
           }
@@ -46,7 +47,7 @@
           "type": "heading",
           "settings": {
             "heading": "Let’s keep in touch",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "bf10f65c-24b0-4fbb-af3c-ca5699175407": {
