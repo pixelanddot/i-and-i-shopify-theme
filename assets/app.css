@@ -776,8 +776,9 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 }
 
 .card__content .cfp-prod-button button {
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
+  min-height: -moz-fit-content !important;
+  min-height: fit-content !important;
+  padding: 1rem !important;
   font-size: 1rem !important;
   line-height: 1.5rem !important;
 }
