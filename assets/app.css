@@ -749,7 +749,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center !important;
 }
 
-ul:not(.list-social, .list-unstyled, .multicolumn-list) {
+ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid) {
   list-style: disc !important;
   margin: 1rem !important;
   padding: 1rem !important;
