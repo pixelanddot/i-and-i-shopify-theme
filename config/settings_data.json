@@ -156,6 +156,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "1868344454708136311": {
+        "type": "shopify:\/\/apps\/call-for-hidden-price-pro\/blocks\/call-for-price\/277b7df2-52d7-4b5f-8bc6-99bc4c4a5563",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
