@@ -103,7 +103,7 @@
           "type": "text",
           "settings": {
             "heading": "Contact",
-            "subtext": "<p>If you have any questions regarding your order, or you require any assistance, please contact us and we would be happy to help.<\/p><p><br\/><strong>Email:<\/strong> <a href=\"mailto:%20info@iandijewellery.com\" title=\"Email i and i jewellery\">info@iandijewellery.com<br\/><\/a><strong>Tel:<\/strong> <a href=\"tel:07887920052\" title=\"tel:07887920052\">07887920052<br\/><\/a><\/p>"
+            "subtext": "<p>If you have any questions regarding your order, or you require any assistance, please contact us and we would be happy to help.<\/p><p><br\/><strong>Email:<\/strong> <a href=\"mailto:%20info@iandijewellery.com\" title=\"Email i and i jewellery\">info@iandijewellery.com<\/a><a href=\"tel:07887920052\" title=\"tel:07887920052\"><br\/><\/a><\/p>"
           }
         }
       },
@@ -122,7 +122,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 48,
         "padding_top": 36,
         "padding_bottom": 36
