@@ -109,3 +109,11 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 .price__badge-sold-out {
   @apply twcss-hidden;
 }
+
+.card__content .cfp-prod-button button {
+  @apply !text-base !twcss-px-1;
+}
+
+.card__content .cfp-prod-button button svg {
+  @apply !hidden;
+}
