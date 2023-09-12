@@ -96,3 +96,7 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
   margin: 1rem !important;
   padding: 1rem !important;
 }
+
+.collage--mobile .collage__item--five-right:last-of-type {
+  grid-column: span 2;
+}

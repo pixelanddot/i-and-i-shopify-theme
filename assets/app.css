@@ -625,11 +625,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: var(--font-heading-family);
 }
 
-.twcss-text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .twcss-text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -764,6 +759,10 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
   padding: 1rem !important;
 }
 
+.collage--mobile .collage__item--five-right:last-of-type {
+  grid-column: span 2;
+}
+
 @media (min-width: 750px) {
   .md\:twcss-sticky {
     position: sticky;
@@ -779,10 +778,6 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 
   .md\:twcss-block {
     display: block;
-  }
-
-  .md\:twcss-hidden {
-    display: none;
   }
 
   .md\:\!twcss-hidden {
