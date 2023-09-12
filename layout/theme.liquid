@@ -343,5 +343,12 @@
     {%- if settings.predictive_search_enabled -%}
       <script src='{{ 'predictive-search.js' | asset_url }}' defer='defer'></script>
     {%- endif -%}
-  </body>
+  <!-- sb cfp code --> <script>var cfp_sb_variable = '1';{% render 'cfp_config' %} {% render 'cfp_data' %}
+            {% capture ProIDsCollections %}
+             {% render 'cfp_collection' %}
+            {% endcapture %}
+            var ProIDsCollectionsTest = { {{ProIDsCollections}} }
+            var ProIDsCollections =`{{ProIDsCollections}}`;
+            </script> <!-- sb cfp code -->
+            </body>
 </html>
