@@ -117,3 +117,9 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 .card__content .cfp-prod-button button svg {
   @apply !twcss-hidden;
 }
+
+@media (max-width: 998px) {
+  .collection-list-wrapper .button--secondary {
+    @apply twcss-hidden;
+  }
+}
