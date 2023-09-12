@@ -103,3 +103,7 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 .collage--mobile .collage__item--five-right:last-of-type {
   grid-column: span 2;
 }
+
+.price__badge-sold-out {
+  @apply hidden;
+}
