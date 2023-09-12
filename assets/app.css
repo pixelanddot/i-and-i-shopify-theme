@@ -788,7 +788,7 @@ ul:not(.list-social, .list-unstyled, .multicolumn-list, .product-grid, .collecti
 }
 
 @media (max-width: 998px) {
-  .collection-list-wrapper .button--secondary {
+  .collection-list-wrapper .collection-list-view-all {
     display: none;
   }
 }
