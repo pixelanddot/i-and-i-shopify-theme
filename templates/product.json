@@ -55,7 +55,7 @@
         "72b4878d-7cda-4f54-9def-efee721830a1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How to wear it",
+            "heading": "How to Wear It",
             "icon": "question_mark",
             "content": "{{ product.metafields.custom.how_to_wear_it_2 | metafield_tag }}",
             "page": ""
