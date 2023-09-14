@@ -146,7 +146,7 @@
           "type": "button",
           "settings": {
             "button_label": "EXPLORE EARRINGS",
-            "button_link": "shopify:\/\/collections\/rings",
+            "button_link": "https:\/\/www.iandijewellery.com\/collections\/earrings",
             "button_style_secondary": true
           }
         }
