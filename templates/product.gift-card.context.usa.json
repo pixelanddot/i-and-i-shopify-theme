@@ -4,5 +4,31 @@
     "market": "usa"
   },
   "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "2a255d98-fdbb-427a-8662-64fd81c20d3a": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "72b4878d-7cda-4f54-9def-efee721830a1": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible-row-3": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible-row-1": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    }
   }
 }
