@@ -43,42 +43,6 @@
           "settings": {
           }
         },
-        "2a255d98-fdbb-427a-8662-64fd81c20d3a": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials & Dimensions",
-            "icon": "ruler",
-            "content": "{{ product.metafields.custom.materials_dimensions | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "72b4878d-7cda-4f54-9def-efee721830a1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "How to Wear It",
-            "icon": "question_mark",
-            "content": "{{ product.metafields.custom.how_to_wear_it_2 | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "<p><span style=\"text-decoration:underline\"><strong>Shipping<\/strong><\/span><\/p><ul><li>Standard UK Delivery on all orders below £150<\/li><li>FREE UK Next Day Delivery Shipping on all orders over £150<\/li><li>International Shipping is carried out using Airsure Service<\/li><li>For any emergency or special delivery request, please contact us.<\/li><\/ul><p>*For full costs and details, please refer to our <a href=\"\/policies\/shipping-policy\" title=\"\/policies\/shipping-policy\">Shipping Policy<\/a>.<br\/><br\/><\/p><p><span style=\"text-decoration:underline\"><strong>Returns<\/strong><\/span><\/p><ul><li>Returns and exchanges are available within 7 days of delivery<\/li><li>We do not offer exchange or return services for earrings due to hygiene reasons.<\/li><\/ul><p>*For full policy on returns and exchanges, please refer to our <a href=\"\/policies\/refund-policy\" title=\"\/policies\/refund-policy\">Refund Policy.<\/a><\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "<ul><li>Avoid skin and hair products (lotions and perfumes), along with other chemicals such as chlorine.<\/li><li>All jewellery should be stored separately to avoid scratching and rubbing against one another.<\/li><li>To clean your jewellery rub the piece gently with a soft lint-free cloth or wash in warm soaping water in the case of solid gold. It is also recommended that you visit a jeweller once a year to have it cleaned professionally. This will keep them looking their best!<\/li><\/ul><p><\/p><p>For full details, please refer to (how to care for your jewellery)<\/p>",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -94,10 +58,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "2a255d98-fdbb-427a-8662-64fd81c20d3a",
-        "72b4878d-7cda-4f54-9def-efee721830a1",
-        "collapsible-row-1",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {
