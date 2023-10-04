@@ -70,15 +70,6 @@
             "link": "mailto:info@iandijewellery.com"
           }
         },
-        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>PHONE<\/p>",
-            "link_label": "+44 (0) 7887-920-052",
-            "link": "tel:+44 (0) 7887-920-052"
-          }
-        },
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-3": {
           "type": "column",
           "settings": {
@@ -100,7 +91,6 @@
       },
       "block_order": [
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-1",
-        "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-2",
         "template--20693161902372__5ddfa8f6-f0e0-4797-8ed0-826d67c0fba6-column-3",
         "58f3b9e8-7d06-4477-8c59-3fbac0424470"
       ],
@@ -109,7 +99,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
