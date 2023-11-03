@@ -2656,6 +2656,7 @@ menu-drawer + .header__search {
 .header__search {
   display: inline-flex;
   line-height: 0;
+  z-index: 999;
 }
 
 .header--top-center > .header__search {
