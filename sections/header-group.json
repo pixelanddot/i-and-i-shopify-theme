@@ -11,16 +11,24 @@
             "text": "Free shipping on all orders above £150",
             "link": "shopify:\/\/collections\/all"
           }
+        },
+        "a25e5ac3-cd4d-4123-aae1-dffa80377f06": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Offer - 20% off all products for a limited time only!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "a25e5ac3-cd4d-4123-aae1-dffa80377f06"
       ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
         "show_social": true,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
