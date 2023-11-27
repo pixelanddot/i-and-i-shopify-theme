@@ -11,10 +11,26 @@
             "text": "Free shipping on all orders above £150",
             "link": "shopify:\/\/collections\/all"
           }
+        },
+        "4ad65617-3012-43ae-8f49-e311f1ba4950": {
+          "type": "announcement",
+          "settings": {
+            "text": "Cyber Monday 20% OFF SITEWIDE",
+            "link": ""
+          }
+        },
+        "a7f9ac43-ef46-470d-9ce8-b702ba4b8c74": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "4ad65617-3012-43ae-8f49-e311f1ba4950",
+        "a7f9ac43-ef46-470d-9ce8-b702ba4b8c74"
       ],
       "settings": {
         "color_scheme": "",
