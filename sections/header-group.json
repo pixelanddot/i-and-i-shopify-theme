@@ -11,18 +11,10 @@
             "text": "Free UK shipping on all orders above £150",
             "link": "shopify:\/\/collections\/all"
           }
-        },
-        "a7f9ac43-ef46-470d-9ce8-b702ba4b8c74": {
-          "type": "announcement",
-          "settings": {
-            "text": "Place your order by 1pm on Dec 20 to receive it before Christmas (UK-wide)",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "a7f9ac43-ef46-470d-9ce8-b702ba4b8c74"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
