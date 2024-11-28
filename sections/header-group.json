@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -9,12 +18,20 @@
           "type": "announcement",
           "settings": {
             "text": "Free UK shipping on all orders above £150",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify://collections/all"
+          }
+        },
+        "announcement_cCNmEn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Black Friday Sale 20% OFF SITEWIDE",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_cCNmEn"
       ],
       "settings": {
         "color_scheme": "",
