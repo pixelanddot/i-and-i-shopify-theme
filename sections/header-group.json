@@ -20,18 +20,10 @@
             "text": "Free UK shipping on all orders above £150",
             "link": "shopify://collections/all"
           }
-        },
-        "announcement_cCNmEn": {
-          "type": "announcement",
-          "settings": {
-            "text": "Black Friday Sale 20% OFF SITEWIDE",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_cCNmEn"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
