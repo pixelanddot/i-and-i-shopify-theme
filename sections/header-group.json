@@ -20,18 +20,10 @@
             "text": "Free UK shipping on all orders above £150",
             "link": "shopify://collections/all"
           }
-        },
-        "announcement_GCEkgE": {
-          "type": "announcement",
-          "settings": {
-            "text": "Orders placed after 20 Dec will be shipped on 2 Jan",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_GCEkgE"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
