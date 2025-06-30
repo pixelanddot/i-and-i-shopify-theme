@@ -20,10 +20,18 @@
             "text": "Free UK shipping on all orders above £150",
             "link": "shopify://collections/all"
           }
+        },
+        "announcement_7qKDKX": {
+          "type": "announcement",
+          "settings": {
+            "text": "Summer Sale - 25% OFF Sitewide",
+            "link": "shopify://collections/all"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_7qKDKX"
       ],
       "settings": {
         "color_scheme": "",
