@@ -21,17 +21,17 @@
             "link": "shopify://collections/all"
           }
         },
-        "announcement_7qKDKX": {
+        "announcement_3PDjRT": {
           "type": "announcement",
           "settings": {
-            "text": "Summer Sale - 25% OFF Sitewide",
-            "link": "shopify://collections/all"
+            "text": "Orders placed on and after August 20th will be shipped on Sept 1st",
+            "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_7qKDKX"
+        "announcement_3PDjRT"
       ],
       "settings": {
         "color_scheme": "",
