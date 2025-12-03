@@ -20,18 +20,10 @@
             "text": "Free UK shipping on all orders above £150",
             "link": "shopify://collections/all"
           }
-        },
-        "announcement_3PDjRT": {
-          "type": "announcement",
-          "settings": {
-            "text": "BLACK FRIDAY - 25% OFF SITEWIDE",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_3PDjRT"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "",
