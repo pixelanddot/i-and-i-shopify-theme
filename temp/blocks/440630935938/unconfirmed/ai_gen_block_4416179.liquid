@@ -1,6 +1,602 @@
+{% doc %}
+  @prompt
+    A magazine-style editorial layout
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-editorial-layout-{{ ai_gen_id }} {
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+    padding: {{ block.settings.spacing_vertical }}px {{ block.settings.spacing_horizontal }}px;
+  }
+
+  .ai-editorial-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: {{ block.settings.grid_gap }}px;
+    align-items: start;
+  }
+
+  .ai-editorial-featured-{{ ai_gen_id }} {
+    grid-column: span 7;
+    position: relative;
+  }
+
+  .ai-editorial-featured-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: {{ block.settings.image_radius }}px;
+  }
+
+  .ai-editorial-featured-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    background-color: #f4f4f4;
+    border-radius: {{ block.settings.image_radius }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-editorial-featured-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-editorial-featured-content-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.content_spacing }}px;
+  }
+
+  .ai-editorial-category-{{ ai_gen_id }} {
+    font-size: {{ block.settings.category_size }}px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: {{ block.settings.category_color }};
+    margin-bottom: 12px;
+    display: block;
+    font-weight: 600;
+  }
+
+  .ai-editorial-featured-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.featured_title_size }}px;
+    line-height: 1.2;
+    margin: 0 0 16px;
+    color: {{ block.settings.text_color }};
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+  }
+
+  .ai-editorial-excerpt-{{ ai_gen_id }} {
+    font-size: {{ block.settings.excerpt_size }}px;
+    line-height: 1.6;
+    color: {{ block.settings.excerpt_color }};
+    margin-bottom: 20px;
+  }
+
+  .ai-editorial-meta-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: {{ block.settings.meta_size }}px;
+    color: {{ block.settings.meta_color }};
+  }
+
+  .ai-editorial-author-{{ ai_gen_id }} {
+    font-weight: 600;
+  }
+
+  .ai-editorial-date-{{ ai_gen_id }} {
+    opacity: 0.7;
+  }
+
+  .ai-editorial-sidebar-{{ ai_gen_id }} {
+    grid-column: span 5;
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.sidebar_gap }}px;
+  }
+
+  .ai-editorial-sidebar-item-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .ai-editorial-sidebar-image-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: {{ block.settings.sidebar_image_radius }}px;
+  }
+
+  .ai-editorial-sidebar-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #f4f4f4;
+    border-radius: {{ block.settings.sidebar_image_radius }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-editorial-sidebar-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-editorial-sidebar-content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .ai-editorial-sidebar-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.sidebar_title_size }}px;
+    line-height: 1.3;
+    margin: 0;
+    color: {{ block.settings.text_color }};
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+  }
+
+  .ai-editorial-sidebar-meta-{{ ai_gen_id }} {
+    font-size: {{ block.settings.sidebar_meta_size }}px;
+    color: {{ block.settings.meta_color }};
+    opacity: 0.7;
+  }
+
+  .ai-editorial-link-{{ ai_gen_id }} {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
+
+  .ai-editorial-link-{{ ai_gen_id }}:hover .ai-editorial-featured-title-{{ ai_gen_id }},
+  .ai-editorial-link-{{ ai_gen_id }}:hover .ai-editorial-sidebar-title-{{ ai_gen_id }} {
+    opacity: 0.7;
+  }
+
+  .ai-editorial-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-editorial-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.mobile_gap }}px;
+    }
+
+    .ai-editorial-featured-{{ ai_gen_id }},
+    .ai-editorial-sidebar-{{ ai_gen_id }} {
+      grid-column: span 1;
+    }
+
+    .ai-editorial-featured-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.featured_title_size }}px * 0.8);
+    }
+
+    .ai-editorial-sidebar-item-{{ ai_gen_id }} {
+      grid-template-columns: 100px 1fr;
+      gap: 16px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-editorial-layout-{{ ai_gen_id }} {
+      padding: {{ block.settings.spacing_vertical | times: 0.7 }}px {{ block.settings.spacing_horizontal | times: 0.7 }}px;
+    }
+
+    .ai-editorial-featured-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.featured_title_size }}px * 0.65);
+    }
+
+    .ai-editorial-sidebar-title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.sidebar_title_size }}px * 0.9);
+    }
+
+    .ai-editorial-sidebar-item-{{ ai_gen_id }} {
+      grid-template-columns: 80px 1fr;
+      gap: 12px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-editorial-layout-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-editorial-grid-{{ ai_gen_id }}">
+    <div class="ai-editorial-featured-{{ ai_gen_id }}">
+      {% if block.settings.featured_article %}
+        <a href="{{ block.settings.featured_article.url }}" class="ai-editorial-link-{{ ai_gen_id }}">
+          {% if block.settings.featured_article.image %}
+            <img
+              src="{{ block.settings.featured_article.image | image_url: width: 1200 }}"
+              alt="{{ block.settings.featured_article.image.alt | escape }}"
+              class="ai-editorial-featured-image-{{ ai_gen_id }}"
+              loading="lazy"
+              width="{{ block.settings.featured_article.image.width }}"
+              height="{{ block.settings.featured_article.image.height }}"
+            >
+          {% else %}
+            <div class="ai-editorial-featured-placeholder-{{ ai_gen_id }}">
+              {{ 'image' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+
+          <div class="ai-editorial-featured-content-{{ ai_gen_id }}">
+            {% if block.settings.show_category and block.settings.featured_article.tags.size > 0 %}
+              <span class="ai-editorial-category-{{ ai_gen_id }}">{{ block.settings.featured_article.tags.first }}</span>
+            {% endif %}
+
+            <h2 class="ai-editorial-featured-title-{{ ai_gen_id }}">{{ block.settings.featured_article.title }}</h2>
+
+            {% if block.settings.show_excerpt and block.settings.featured_article.excerpt != blank %}
+              <div class="ai-editorial-excerpt-{{ ai_gen_id }}">
+                {{ block.settings.featured_article.excerpt | strip_html | truncate: 180 }}
+              </div>
+            {% endif %}
+
+            {% if block.settings.show_meta %}
+              <div class="ai-editorial-meta-{{ ai_gen_id }}">
+                {% if block.settings.featured_article.author != blank %}
+                  <span class="ai-editorial-author-{{ ai_gen_id }}">{{ block.settings.featured_article.author }}</span>
+                {% endif %}
+                <span class="ai-editorial-date-{{ ai_gen_id }}">{{ block.settings.featured_article.published_at | date: '%B %d, %Y' }}</span>
+              </div>
+            {% endif %}
+          </div>
+        </a>
+      {% else %}
+        <div class="ai-editorial-featured-placeholder-{{ ai_gen_id }}">
+          {{ 'image' | placeholder_svg_tag }}
+          <div class="ai-editorial-empty-state-{{ ai_gen_id }}">
+            Select a featured article
+          </div>
+        </div>
+        <div class="ai-editorial-featured-content-{{ ai_gen_id }}">
+          <span class="ai-editorial-category-{{ ai_gen_id }}">Category</span>
+          <h2 class="ai-editorial-featured-title-{{ ai_gen_id }}">Featured Article Title</h2>
+          <div class="ai-editorial-excerpt-{{ ai_gen_id }}">
+            This is where your featured article excerpt will appear. Select an article to get started.
+          </div>
+          <div class="ai-editorial-meta-{{ ai_gen_id }}">
+            <span class="ai-editorial-author-{{ ai_gen_id }}">Author Name</span>
+            <span class="ai-editorial-date-{{ ai_gen_id }}">December 6, 2025</span>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="ai-editorial-sidebar-{{ ai_gen_id }}">
+      {% for i in (1..4) %}
+        {% liquid
+          assign article_key = 'sidebar_article_' | append: i
+          assign article = block.settings[article_key]
+        %}
+
+        {% if article %}
+          <a href="{{ article.url }}" class="ai-editorial-link-{{ ai_gen_id }}">
+            <div class="ai-editorial-sidebar-item-{{ ai_gen_id }}">
+              <div>
+                {% if article.image %}
+                  <img
+                    src="{{ article.image | image_url: width: 240 }}"
+                    alt="{{ article.image.alt | escape }}"
+                    class="ai-editorial-sidebar-image-{{ ai_gen_id }}"
+                    loading="lazy"
+                    width="120"
+                    height="120"
+                  >
+                {% else %}
+                  <div class="ai-editorial-sidebar-placeholder-{{ ai_gen_id }}">
+                    {{ 'image' | placeholder_svg_tag }}
+                  </div>
+                {% endif %}
+              </div>
+
+              <div class="ai-editorial-sidebar-content-{{ ai_gen_id }}">
+                {% if block.settings.show_category and article.tags.size > 0 %}
+                  <span class="ai-editorial-category-{{ ai_gen_id }}">{{ article.tags.first }}</span>
+                {% endif %}
+                <h3 class="ai-editorial-sidebar-title-{{ ai_gen_id }}">{{ article.title }}</h3>
+                {% if block.settings.show_meta %}
+                  <div class="ai-editorial-sidebar-meta-{{ ai_gen_id }}">
+                    {{ article.published_at | date: '%b %d, %Y' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        {% else %}
+          <div class="ai-editorial-sidebar-item-{{ ai_gen_id }}">
+            <div class="ai-editorial-sidebar-placeholder-{{ ai_gen_id }}">
+              {{ 'image' | placeholder_svg_tag }}
+            </div>
+            <div class="ai-editorial-sidebar-content-{{ ai_gen_id }}">
+              <span class="ai-editorial-category-{{ ai_gen_id }}">Category</span>
+              <h3 class="ai-editorial-sidebar-title-{{ ai_gen_id }}">Article Title {{ i }}</h3>
+              <div class="ai-editorial-sidebar-meta-{{ ai_gen_id }}">Dec 6, 2025</div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Magazine editorial",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Featured article"
+    },
+    {
+      "type": "article",
+      "id": "featured_article",
+      "label": "Featured article"
+    },
+    {
+      "type": "header",
+      "content": "Sidebar articles"
+    },
+    {
+      "type": "article",
+      "id": "sidebar_article_1",
+      "label": "Article 1"
+    },
+    {
+      "type": "article",
+      "id": "sidebar_article_2",
+      "label": "Article 2"
+    },
+    {
+      "type": "article",
+      "id": "sidebar_article_3",
+      "label": "Article 3"
+    },
+    {
+      "type": "article",
+      "id": "sidebar_article_4",
+      "label": "Article 4"
+    },
+    {
+      "type": "header",
+      "content": "Display options"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_category",
+      "label": "Show category",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_excerpt",
+      "label": "Show excerpt",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_meta",
+      "label": "Show author and date",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "featured_title_size",
+      "min": 24,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "label": "Featured title size",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "sidebar_title_size",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Sidebar title size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "excerpt_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Excerpt size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "category_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Category size",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "meta_size",
+      "min": 10,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Meta size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "sidebar_meta_size",
+      "min": 10,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "label": "Sidebar meta size",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "category_color",
+      "label": "Category",
+      "default": "#121212"
+    },
+    {
+      "type": "color",
+      "id": "excerpt_color",
+      "label": "Excerpt",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "meta_color",
+      "label": "Meta",
+      "default": "#121212"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 1000,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 1400
+    },
+    {
+      "type": "range",
+      "id": "spacing_vertical",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Vertical spacing",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "spacing_horizontal",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Horizontal spacing",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Grid gap",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "sidebar_gap",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Sidebar gap",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Content spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Mobile gap",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Featured image radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "sidebar_image_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Sidebar image radius",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Magazine editorial"
+    }
+  ]
+}
 {% endschema %}
